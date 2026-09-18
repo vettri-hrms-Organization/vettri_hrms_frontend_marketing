@@ -6,9 +6,9 @@ import { APP_URL } from "@/lib/config";
 import { formatPrice, type PricingPlan } from "@/data/pricing";
 import { PricingFeatureList } from "./PricingFeatureList";
 
-export function PricingCard({ plan, index, yearly }: { plan: PricingPlan; index: number; yearly: boolean }) {
-  const href = plan.cta === "Talk to sales" ? "/contact" : `${APP_URL}/signup`;
-  const price = yearly ? plan.priceAnnual : plan.priceMonthly;
+export function PricingCard({ plan, index, billingCycle }: { plan: PricingPlan; index: number; billingCycle: "monthly" | "quarterly" | "annual" }) {
+  const href = `${APP_URL}/signup?plan=VETTRI_HRMS`;
+  const price = billingCycle === "annual" ? plan.priceAnnual : billingCycle === "quarterly" ? plan.priceQuarterly : plan.priceMonthly;
 
   return (
     <motion.article
@@ -24,13 +24,13 @@ export function PricingCard({ plan, index, yearly }: { plan: PricingPlan; index:
         <h2>{plan.name}</h2>
         <p>{plan.description}</p>
       </div>
-      <div className="pricing-price" aria-label={price ? `${formatPrice(price)} per ${yearly ? "year" : "month"}` : "Custom pricing"}>
+      <div className="pricing-price" aria-label={price ? `${formatPrice(price)} per ${billingCycle}` : "Custom pricing"}>
         <AnimatePresence mode="popLayout" initial={false}>
           <motion.span key={price ?? "custom"} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -14 }} transition={{ duration: 0.25 }}>
             {formatPrice(price)}
           </motion.span>
         </AnimatePresence>
-        {price !== null && <small>/ {yearly ? "year" : "month"}</small>}
+        {price !== null && <small>/ {billingCycle}</small>}
       </div>
       {plan.employeeLimit && <p className="pricing-capacity">Up to {plan.employeeLimit} employees</p>}
       <PricingFeatureList groups={plan.featureGroups} />

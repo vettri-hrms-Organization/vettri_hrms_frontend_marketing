@@ -19,7 +19,7 @@ function VerticalCutReveal({ children }: { children: string }) {
 }
 
 export function PricingSection() {
-  const [yearly, setYearly] = useState(false);
+  const [billingCycle, setBillingCycle] = useState<"monthly" | "quarterly" | "annual">("monthly");
 
   return (
     <main id="main-content" className="pricing-page">
@@ -28,20 +28,20 @@ export function PricingSection() {
         <div className="container pricing-hero-inner">
           <div className="pricing-hero-copy">
             <span className="eyebrow">Vettri pricing</span>
-            <h1 className="pricing-title"><VerticalCutReveal>Simple pricing for a connected workplace.</VerticalCutReveal></h1>
-            <p>Start small, explore Vettri, and scale when your workplace grows.</p>
+            <h1 className="pricing-title"><VerticalCutReveal>One connected HRMS, with flexible billing.</VerticalCutReveal></h1>
+            <p>Choose the Vettri HRMS product and pick the billing cycle that fits your rollout.</p>
           </div>
           <div className="trial-callout">
             <span className="trial-mark" />
-            <div><strong>14-day free trial</strong><span>No credit card required</span><span>Up to 25 employees</span></div>
-            <a className="btn btn-primary" href={`${APP_URL}/signup`}>Start free <ArrowUpRight size={16} /></a>
+            <div><strong>₹1 Trial / Verification</strong><span>Dedicated verification charge</span><span>Then choose paid billing</span></div>
+            <a className="btn btn-primary" href={`${APP_URL}/signup?plan=VETTRI_HRMS`}>Start free <ArrowUpRight size={16} /></a>
           </div>
         </div>
       </section>
       <section className="price-cards-section" aria-labelledby="plans-title">
         <div className="container">
-          <div className="pricing-toolbar"><div><span className="eyebrow">Plans that stay clear</span><h2 id="plans-title">Choose your operating layer.</h2></div><PricingSwitch yearly={yearly} onChange={setYearly} /></div>
-          <div className="price-grid">{plans.map((plan, index) => <PricingCard plan={plan} index={index} yearly={yearly} key={plan.id} />)}</div>
+          <div className="pricing-toolbar"><div><span className="eyebrow">Single product pricing</span><h2 id="plans-title">Vettri HRMS</h2></div><PricingSwitch billingCycle={billingCycle} onChange={setBillingCycle} /></div>
+          <div className="price-grid">{plans.map((plan, index) => <PricingCard plan={plan} index={index} billingCycle={billingCycle} key={plan.id} />)}</div>
         </div>
       </section>
       <div className="container"><PricingCalculator /></div>
