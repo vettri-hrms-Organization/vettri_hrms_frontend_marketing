@@ -131,7 +131,7 @@ export function ProductModules() {
               <Link href="/platform" className="text-link">Explore the platform <ArrowRight size={14} /></Link>
             </div>
             <div className="module-preview" aria-hidden>
-              <div className="module-preview-top"><span>Vettri workspace</span><span className="status">Demo data</span></div>
+              <div className="module-preview-top"><span>Vettri workspace</span><span className="status">Product preview</span></div>
               <div className="module-preview-heading"><span className="module-preview-dot" style={{ background: active.accent }} /><strong>{active.label}</strong><span>Today</span></div>
               <div className="module-stat-grid">
                 {active.stats.map((stat, index) => (

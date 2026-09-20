@@ -23,8 +23,8 @@ export const plans: PricingPlan[] = [
     employeeLimit: null,
     popular: true,
     cta: "Start free",
-    description: "One complete HRMS platform with a single product and flexible billing cycles.",
-    featureGroups: [{ label: "Includes", features: ["Unified HR & workspace platform", "Attendance, leave, payroll, and employee records", "Device & software oversight", "Remote support and productivity controls", "Quarterly or annual billing savings", "Clear ₹1 verification step before activation"] }],
+    description: "One connected HRMS for people and workplace operations.",
+    featureGroups: [{ label: "Includes", features: ["People + workplace platform", "Attendance, leave, payroll & employee records", "Devices & software", "Support & workplace controls", "Flexible billing", "₹1 verification before activation"] }],
   },
 ];
 

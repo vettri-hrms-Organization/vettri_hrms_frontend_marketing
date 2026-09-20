@@ -37,7 +37,7 @@ export function HeroDashboard() {
             <div className="hd-main-head">
               <div>
                 <h3>Workplace overview</h3>
-                <span>Example workspace · not live data</span>
+                <span>Product preview · representative data</span>
               </div>
             </div>
             <div className="hd-stat-grid">

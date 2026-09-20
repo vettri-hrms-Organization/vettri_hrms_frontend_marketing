@@ -155,6 +155,7 @@ export default function Navbar() {
 
   return (
     <header ref={headerRef} className="site-header" onMouseLeave={scheduleClose}>
+      <div className="nav-progress" aria-hidden="true"><span /></div>
       <div className={`nav-surface ${scrolled ? "scrolled" : ""} ${activeMenu ? "menu-open" : ""}`}>
         <div className="container nav">
           <Link className="brand" href="/" onClick={() => setActiveMenu(null)}>

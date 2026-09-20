@@ -5,7 +5,10 @@ import { plans, formatPrice } from "@/data/pricing";
 
 export function PricingCalculator() {
   const [employees, setEmployees] = useState(25);
-  const plan = employees <= 25 ? plans[0] : plans[1];
+  // Vettri currently has one published plan. Keep the calculator stable for all team sizes.
+  const plan = plans[0];
+  const monthlyPerEmployee = plan?.priceMonthly ?? null;
+  const estimatedMonthlyTotal = monthlyPerEmployee === null ? null : monthlyPerEmployee * employees;
 
   return (
     <section className="pricing-calculator" aria-labelledby="calculator-title">
@@ -19,7 +22,7 @@ export function PricingCalculator() {
         <input id="employee-count" type="range" min="1" max="50" value={employees} onChange={(event) => setEmployees(Number(event.target.value))} />
         <div className="calculator-scale"><span>1</span><span>50</span></div>
       </div>
-      <div className="calculator-answer"><span>Suggested plan</span><strong>{plan.name}</strong><b>{formatPrice(plan.priceMonthly)} <small>/ month</small></b></div>
+      <div className="calculator-answer"><span>Estimated starting price</span><strong>{plan.name}</strong><b>{formatPrice(monthlyPerEmployee)} <small>/ employee / month</small></b>{estimatedMonthlyTotal !== null && <em>For {employees} employees: {formatPrice(estimatedMonthlyTotal)} / month</em>}</div>
     </section>
   );
 }

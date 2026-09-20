@@ -23,30 +23,29 @@ export function Hero() {
       <div className="container">
         <div className="hero-copy-center">
           <motion.div className="eyebrow" {...rise(0.05)}>
-            Vettri workplace platform
+            THE CONNECTED WORKPLACE PLATFORM
           </motion.div>
 
           <motion.h1 className="display" {...rise(0.18)}>
-            HR meets workplace operations
+            Your people, workplace and technology — finally connected.
           </motion.h1>
 
           <motion.p className="body-copy" {...rise(0.3)}>
-            One connected platform for your people, payroll, attendance, devices, software and everyday
-            workplace operations — built to feel effortless for HR and IT alike.
+            Vettri brings HR, workplace operations and IT into one connected platform — from employee onboarding and payroll to devices, software and everyday support.
           </motion.p>
 
           <motion.div className="hero-actions" {...rise(0.42)}>
             <a className="btn btn-primary" href={`${APP_URL}/signup`}>
-              Start free <ArrowRight size={16} />
+              Book a demo <ArrowRight size={16} />
             </a>
             <Link className="btn btn-quiet" href="/platform">
-              See it in action
+              Explore the platform
             </Link>
           </motion.div>
 
           <motion.div className="proof-line" {...rise(0.52)}>
             <span className="proof-dot" />
-            14-day trial · No credit card required
+            People · Workplace · Technology
           </motion.div>
         </div>
 

@@ -48,7 +48,7 @@ export function HeroVisual() {
           <div className="hv-body-head">
             <div>
               <h3>Workplace overview</h3>
-              <span>Example workspace · not live data</span>
+              <span>Product preview · representative data</span>
             </div>
             <Activity size={17} color="var(--blue)" />
           </div>
@@ -84,7 +84,7 @@ export function HeroVisual() {
           </div>
 
           <div className="hv-chart">
-            <div className="hv-chart-title"><span>Attendance, this week</span><span>Example data</span></div>
+            <div className="hv-chart-title"><span>Attendance, this week</span><span>Representative data</span></div>
             <div className="hv-bars">
               {bars.map((h, i) => (
                 <motion.div

@@ -6,15 +6,15 @@ import { LoadingIntro } from "@/components/LoadingIntro";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Vettri | HR meets workplace operations",
+    default: "Vettri | People, workplace and technology — connected",
     template: "%s | Vettri",
   },
   description:
-    "One connected platform for your people, payroll, attendance, devices, software and workplace operations.",
+    "Vettri connects people operations, workplace operations and IT in one connected platform.",
   openGraph: {
-    title: "Vettri | HR meets workplace operations",
+    title: "Vettri | People, workplace and technology — connected",
     description:
-      "HR knows your people. IT knows their devices. Vettri connects both — one operating layer for people and workplace technology.",
+      "Your people, workplace and technology — finally connected.",
     type: "website",
     url: SITE_URL,
     siteName: "Vettri",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vettri | HR meets workplace operations",
+    title: "Vettri | People, workplace and technology — connected",
     description:
-      "One connected platform for your people, payroll, attendance, devices, software and workplace operations.",
+      "Vettri connects people operations, workplace operations and IT in one connected platform.",
     images: ["/brand/og-image.png"],
   },
   icons: {
