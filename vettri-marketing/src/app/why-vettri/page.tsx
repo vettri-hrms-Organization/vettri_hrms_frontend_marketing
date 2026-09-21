@@ -7,11 +7,13 @@ import { Reveal } from "@/components/Reveal";
 import { APP_URL } from "@/lib/config";
 import type { Metadata } from "next";
 import { GradientBackground } from "@/components/ui/gradient-background";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Why Vettri",
-  description: "HR knows your people. IT knows their devices. Vettri connects both.",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "Why Vettri HRMS",
+  description: "See how Vettri HRMS connects employee records, workplace operations and technology in one operating layer for modern teams.",
+  path: "/why-vettri",
+});
 
 const diffs = [
   {

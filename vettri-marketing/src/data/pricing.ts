@@ -24,7 +24,7 @@ export const plans: PricingPlan[] = [
     popular: true,
     cta: "Start free",
     description: "One connected HRMS for people and workplace operations.",
-    featureGroups: [{ label: "Includes", features: ["People + workplace platform", "Attendance, leave, payroll & employee records", "Devices & software", "Support & workplace controls", "Flexible billing", "₹1 verification before activation"] }],
+    featureGroups: [{ label: "Includes", features: ["People + workplace platform", "Attendance, leave, payroll & employee records", "Devices & software", "Support & workplace controls", "Flexible billing", "₹1 verification to start the free trial"] }],
   },
 ];
 

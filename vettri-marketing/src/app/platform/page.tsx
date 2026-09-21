@@ -7,11 +7,13 @@ import { Reveal } from "@/components/Reveal";
 import { APP_URL } from "@/lib/config";
 import type { Metadata } from "next";
 import { GradientBackground } from "@/components/ui/gradient-background";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Platform",
-  description: "The operating layer between people and work — people, HR operations and workplace technology in one connected platform.",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "HRMS Software Platform for Businesses",
+  description: "Explore Vettri HRMS features for employee records, attendance, leave, payroll context, assets, devices and connected workplace operations.",
+  path: "/platform",
+});
 
 const rows = [
   {
@@ -47,7 +49,7 @@ export default function PlatformPage() {
           <div className="container inner-hero-grid">
             <Reveal>
               <div className="eyebrow">Platform</div>
-              <h1 className="display">The operating layer between people and work.</h1>
+              <h1 className="display">HRMS software for the people and work behind every day.</h1>
               <p className="body-copy lg">
                 Vettri connects the systems, people and workplace moments that keep an organization moving —
                 one platform instead of a patchwork of tools.

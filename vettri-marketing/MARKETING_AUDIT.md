@@ -11,7 +11,7 @@ Audited the Next.js App Router marketing site, public routes, shared navigation/
 ### P1
 
 - Signup ownership is environment-dependent. Marketing CTAs use `NEXT_PUBLIC_APP_URL`, while the local `/signup` route redirects to that application. Production must set this value to the real onboarding app URL; the marketing site must not point it at login.
-- Contact conversion is not production-ready. The current CTA uses the placeholder `hello@vettri.example` and the page explains that the sales flow is still being connected. A verified address or form endpoint is required before launch.
+- Contact conversion uses the verified production support address `customersupport@vettrihrms.in`; the page explains that the sales flow is still being connected.
 
 ### P2
 

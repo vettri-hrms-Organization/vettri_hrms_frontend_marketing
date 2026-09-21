@@ -4,11 +4,13 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Reveal } from "@/components/Reveal";
 import { GradientBackground } from "@/components/ui/gradient-background";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Security and control",
-  description: "How Vettri approaches security, access and operational control.",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "Vettri HRMS Security and Access Control",
+  description: "Learn how Vettri HRMS approaches access, tenant separation, operational traceability and workplace technology controls.",
+  path: "/security",
+});
 
 const controls = [
   ["Tenant separation", "Vettri is designed around isolated organization workspaces so people and workplace records stay within the right operating context."],

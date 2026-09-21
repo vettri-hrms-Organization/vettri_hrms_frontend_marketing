@@ -6,25 +6,25 @@ import { LoadingIntro } from "@/components/LoadingIntro";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Vettri | People, workplace and technology — connected",
-    template: "%s | Vettri",
+    default: "Vettri HRMS - Modern HRMS Software for Businesses",
+    template: "%s | Vettri HRMS",
   },
   description:
-    "Vettri connects people operations, workplace operations and IT in one connected platform.",
+    "Vettri HRMS is a modern HR management platform for employee records, attendance, leave, payroll context and everyday workplace operations.",
   openGraph: {
-    title: "Vettri | People, workplace and technology — connected",
+    title: "Vettri HRMS - Modern HRMS Software for Businesses",
     description:
-      "Your people, workplace and technology — finally connected.",
+      "Manage employee records, attendance, leave, payroll context and workplace operations in one connected HRMS platform.",
     type: "website",
     url: SITE_URL,
-    siteName: "Vettri",
-    images: [{ url: "/brand/og-image.png", width: 1200, height: 630, alt: "Vettri" }],
+    siteName: "Vettri HRMS",
+    images: [{ url: "/brand/og-image.png", width: 1200, height: 630, alt: "Vettri HRMS" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vettri | People, workplace and technology — connected",
+    title: "Vettri HRMS - Modern HRMS Software for Businesses",
     description:
-      "Vettri connects people operations, workplace operations and IT in one connected platform.",
+      "Manage employee records, attendance, leave, payroll context and workplace operations in one connected HRMS platform.",
     images: ["/brand/og-image.png"],
   },
   icons: {
@@ -37,9 +37,34 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Vettri HRMS",
+      url: SITE_URL,
+      logo: `${SITE_URL}/brand/vettri-logo-full.png`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Vettri HRMS",
+      url: SITE_URL,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: "Vettri HRMS",
+      applicationCategory: "BusinessApplication",
+      operatingSystem: "Web",
+      url: SITE_URL,
+    },
+  ];
+
   return (
     <html lang="en">
       <body className="site-shell">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <a className="skip-link" href="#main-content">Skip to content</a>
         <LoadingIntro />
         {children}

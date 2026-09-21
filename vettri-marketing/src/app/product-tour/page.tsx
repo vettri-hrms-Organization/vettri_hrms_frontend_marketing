@@ -6,11 +6,13 @@ import { ProductTour } from "@/components/ProductTour";
 import { Reveal } from "@/components/Reveal";
 import { GradientBackground } from "@/components/ui/gradient-background";
 import { APP_URL } from "@/lib/config";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Product tour",
-  description: "Explore how Vettri connects people operations and workplace technology.",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "Vettri HRMS Product Tour",
+  description: "Explore how Vettri HRMS connects employee records, attendance, leave, payroll context and workplace technology.",
+  path: "/product-tour",
+});
 
 export default function ProductTourPage() {
   return <>

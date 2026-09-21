@@ -7,11 +7,13 @@ import { Reveal } from "@/components/Reveal";
 import { APP_URL } from "@/lib/config";
 import type { Metadata } from "next";
 import { GradientBackground } from "@/components/ui/gradient-background";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Solutions",
-  description: "Vettri, designed around the teams that make work happen — HR, IT and everyone in between.",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "HRMS Solutions for HR, IT and Workplace Teams",
+  description: "See how Vettri HRMS supports HR teams, IT teams, managers and employees with connected people and workplace operations.",
+  path: "/solutions",
+});
 
 const roles = [
   {

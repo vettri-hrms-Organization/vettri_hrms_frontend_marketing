@@ -4,7 +4,6 @@ import { ArrowRight, Check, ShieldCheck, Sparkles, UsersRound, Zap } from "lucid
 import { motion } from "framer-motion";
 import { plans } from "@/data/pricing";
 import { APP_URL } from "@/lib/config";
-import { PricingCard } from "./PricingCard";
 import { PricingCalculator } from "./PricingCalculator";
 import { PricingSwitch } from "./PricingSwitch";
 import { useState } from "react";
@@ -16,6 +15,11 @@ export function PricingSection() {
   const monthlyEquivalent = billingCycle === "annual" ? Math.round((plan.priceAnnual ?? 0) / 12) : billingCycle === "quarterly" ? Math.round((plan.priceQuarterly ?? 0) / 3) : plan.priceMonthly;
   const billingUnit = billingCycle === "annual" ? "year" : billingCycle === "quarterly" ? "quarter" : "month";
   const annualSaving = (plan.priceMonthly ?? 0) * 12 - (plan.priceAnnual ?? 0);
+  const annualBaseline = (plan.priceMonthly ?? 0) * 12;
+  const savings = {
+    quarterly: Math.round((1 - ((plan.priceQuarterly ?? 0) * 4) / annualBaseline) * 100),
+    annual: Math.round((1 - (plan.priceAnnual ?? 0) / annualBaseline) * 100),
+  };
 
   return (
     <main id="main-content" className="pricing-page premium-pricing">
@@ -40,7 +44,7 @@ export function PricingSection() {
             <div className="offer-equivalent">{billingCycle === "monthly" ? "Billed monthly per employee" : `≈ ₹${monthlyEquivalent?.toLocaleString("en-IN")}/employee/month equivalent`} {billingCycle === "annual" && <b>Save ₹{annualSaving.toLocaleString("en-IN")} / employee / year</b>}</div>
             <p>One connected platform for your people and workplace operations.</p>
             <a className="btn btn-primary" href={`${APP_URL}/signup?plan=VETTRI_HRMS`}>Get started <ArrowRight size={16}/></a>
-            <div className="offer-note"><ShieldCheck size={14}/> Secure activation · ₹1 verification step</div>
+            <div className="offer-note"><ShieldCheck size={14}/> ₹1 verification starts your free trial</div>
           </motion.div>
         </div>
       </section>
@@ -49,7 +53,7 @@ export function PricingSection() {
         <div className="container">
           <div className="premium-pricing-toolbar">
             <div><span className="eyebrow">Pricing, without the maze</span><h2>Choose how you want to grow.</h2><p className="pricing-toolbar-copy">One product. One clear price. Switch billing whenever your needs change.</p></div>
-            <PricingSwitch billingCycle={billingCycle} onChange={setBillingCycle} />
+            <PricingSwitch billingCycle={billingCycle} onChange={setBillingCycle} savings={savings} />
           </div>
 
           <div className="premium-plan-shell">

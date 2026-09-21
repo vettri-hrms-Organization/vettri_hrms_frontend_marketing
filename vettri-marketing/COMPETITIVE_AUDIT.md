@@ -103,7 +103,7 @@ Vettri should compete on the operating context between HR and workplace technolo
 - Static module metrics were labelled `Live context`; they are demo data and must be labelled accordingly.
 - Security copy mentions multi-tenancy, RBAC, auditability, authentication, and device governance without evidence in this repository.
 - Automation copy can read as implemented backend orchestration even though this repository contains marketing previews.
-- Contact points to `hello@vettri.example`, which is not a production sales endpoint.
+- Contact points to `customersupport@vettrihrms.in` as the verified production support endpoint.
 - Footer deep links do not match the current platform and solution section IDs.
 - Pricing Growth previously included an invented 50-employee limit; the approved launch model does not define that limit.
 - Testimonials, customer counts, certifications, integrations, and compliance claims are intentionally absent until verified.
