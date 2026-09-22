@@ -21,7 +21,7 @@ const heights = {
   lg: 42,
 } as const;
 
-export function VettriLogo({ variant = "full", size = "md", alt = "Vettri", className, ...props }: VettriLogoProps) {
+export function VettriLogo({ variant = "full", size = "md", alt = "Vettri HRMS", className, ...props }: VettriLogoProps) {
   const source = variant === "full" ? "/brand/vettri-logo-full-transparent.png" : "/brand/vettri-mark-transparent.png";
   const { width, height } = dimensions[variant];
   const displayHeight = heights[size];

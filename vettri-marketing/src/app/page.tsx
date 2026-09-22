@@ -135,6 +135,27 @@ export default function Home() {
 
       <section className="v4-integrations section-pad"><div className="container"><Reveal><div className="v4-centered"><span className="v4-eyebrow">FITS INTO YOUR WORK</span><h2>Connect the tools your teams already use.</h2></div></Reveal><div className="v4-integration-row">{integrations.map((x,i)=><Reveal delay={i*.04} key={x}><span><i>{x.slice(0,1)}</i>{x}</span></Reveal>)}</div></div></section>
 
+      <section className="v4-founder-story section-pad">
+        <div className="container">
+          <Reveal>
+            <div className="v4-founder-story-head">
+              <div>
+                <span className="v4-eyebrow">BUILT BY BROTHERS</span>
+                <h2>Built by Brothers.<br /><em>Built for Better Workplaces.</em></h2>
+              </div>
+              <div className="v4-founder-story-copy">
+                <p>Vettri HRMS was born from two brothers, Vikkash and Hariharan, with a shared vision to make everyday business and HR operations simpler through practical technology. What started as an idea grew into a modern HRMS platform built for growing businesses.</p>
+                <Link className="v4-inline" href="/about">Discover our story <ArrowRight size={15} /></Link>
+              </div>
+            </div>
+          </Reveal>
+          <div className="v4-founder-grid">
+            <Reveal delay={.08}><article className="v4-founder-card"><span className="v4-founder-index">01</span><div><h3>Vikkash</h3><p>Product &amp; Technology</p></div></article></Reveal>
+            <Reveal delay={.14}><article className="v4-founder-card"><span className="v4-founder-index">02</span><div><h3>Hariharan</h3><p>Product &amp; Technology</p></div></article></Reveal>
+          </div>
+        </div>
+      </section>
+
       <section className="v4-final section-pad"><div className="container"><Reveal><div className="v4-final-card"><div className="v4-final-orb"/><span className="v4-eyebrow">READY WHEN YOU ARE</span><h2>Make your workplace<br/><em>feel connected.</em></h2><p>One platform. One shared context.</p><div className="v4-hero-actions"><a className="v4-btn primary" href={`${APP_URL}/signup`}>Book a demo <ArrowRight size={16}/></a><Link className="v4-btn secondary" href="/pricing">Explore pricing</Link></div></div></Reveal></div></section>
     </main>
     <Footer />
