@@ -29,10 +29,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon.png", sizes: "192x192", type: "image/png" },
+      { url: "/brand/vettri-favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/brand/vettri-favicon.png", sizes: "192x192", type: "image/png" },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/brand/vettri-apple-touch-icon.png",
   },
 };
 
@@ -47,7 +47,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       "@id": organizationId,
       name: "Vettri HRMS",
       url: SITE_URL,
-      logo: `${SITE_URL}/brand/vettri-logo-full.png`,
+      logo: `${SITE_URL}/brand/vettri-favicon.png`,
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer support",

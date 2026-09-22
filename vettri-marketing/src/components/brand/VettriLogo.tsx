@@ -11,8 +11,8 @@ type VettriLogoProps = Omit<ComponentProps<typeof Image>, "alt" | "src" | "width
 };
 
 const dimensions = {
-  full: { width: 677, height: 260 },
-  mark: { width: 292, height: 260 },
+  full: { width: 192, height: 192 },
+  mark: { width: 192, height: 192 },
 } as const;
 
 const heights = {
@@ -22,7 +22,7 @@ const heights = {
 } as const;
 
 export function VettriLogo({ variant = "full", size = "md", alt = "Vettri HRMS", className, ...props }: VettriLogoProps) {
-  const source = variant === "full" ? "/brand/vettri-logo-full-transparent.png" : "/brand/vettri-mark-transparent.png";
+  const source = "/brand/vettri-favicon.png";
   const { width, height } = dimensions[variant];
   const displayHeight = heights[size];
 

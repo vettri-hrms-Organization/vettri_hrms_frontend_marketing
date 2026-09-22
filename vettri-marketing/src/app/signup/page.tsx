@@ -27,7 +27,7 @@ export default function SignupPage() {
         <div className="signup-v15-brand-glow signup-v15-brand-glow-b" />
         <div className="signup-v15-brand-top">
           <Link href="/" aria-label="Back to Vettri home" className="signup-v15-logo">
-            <img src="/brand/vettri-logo-full-transparent.png" alt="Vettri" />
+            <img src="/brand/vettri-favicon.png" alt="Vettri HRMS" />
           </Link>
           <span className="signup-v15-secure"><LockKeyhole size={13} /> Secure setup</span>
         </div>
