@@ -1,7 +1,7 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 
 const stages = [
   { name: "Hire", desc: "Candidate context flows straight into a workplace-ready employee record.", tags: ["Offer", "Records"] },
@@ -15,10 +15,38 @@ const stages = [
 
 export function Lifecycle() {
   const [active, setActive] = useState(2);
+  const [isVisible, setIsVisible] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  const shellRef = useRef<HTMLDivElement>(null);
+  const reduce = useReducedMotion();
   const progress = ((active + 1) / stages.length) * 100;
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => setIsVisible(entry.isIntersecting), { threshold: 0.35 });
+    if (shellRef.current) observer.observe(shellRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (reduce || !isVisible || isPaused) return;
+    const timer = window.setInterval(() => setActive((current) => (current + 1) % stages.length), 2800);
+    return () => window.clearInterval(timer);
+  }, [isPaused, isVisible, reduce]);
+
+  const pause = () => setIsPaused(true);
+  const resume = () => setIsPaused(false);
+
   return (
-    <div className="lifecycle-shell">
+    <div
+      ref={shellRef}
+      className="lifecycle-shell"
+      onMouseEnter={pause}
+      onMouseLeave={resume}
+      onFocus={pause}
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) resume();
+      }}
+    >
       <div className="lifecycle-track" role="tablist" aria-label="Employee lifecycle stages">
         <div className="lifecycle-progress" style={{ width: `${progress}%` }} aria-hidden />
         {stages.map((stage, index) => (

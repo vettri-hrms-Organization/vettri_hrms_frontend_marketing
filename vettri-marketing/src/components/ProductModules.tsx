@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import {
   ArrowRight,
   BriefcaseBusiness,
@@ -11,7 +11,7 @@ import {
   UsersRound,
 } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const modules = [
   {
@@ -78,11 +78,45 @@ const modules = [
 
 export function ProductModules() {
   const [activeId, setActiveId] = useState<(typeof modules)[number]["id"]>("people");
+  const [isVisible, setIsVisible] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+  const reduce = useReducedMotion();
   const active = modules.find((module) => module.id === activeId) ?? modules[0];
   const Icon = active.icon;
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => setIsVisible(entry.isIntersecting), { threshold: 0.35 });
+    if (sectionRef.current) observer.observe(sectionRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (reduce || !isVisible || isPaused) return;
+    const timer = window.setInterval(() => {
+      setActiveId((current) => {
+        const index = modules.findIndex((module) => module.id === current);
+        return modules[(index + 1) % modules.length].id;
+      });
+    }, 5000);
+    return () => window.clearInterval(timer);
+  }, [isPaused, isVisible, reduce]);
+
+  const pause = () => setIsPaused(true);
+  const resume = () => setIsPaused(false);
+
   return (
-    <section className="modules-section" id="modules">
+    <section
+      ref={sectionRef}
+      className="modules-section"
+      id="modules"
+      onMouseEnter={pause}
+      onMouseLeave={resume}
+      onFocus={pause}
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) resume();
+      }}
+    >
       <div className="container">
         <div className="modules-heading">
           <div>

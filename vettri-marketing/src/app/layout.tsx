@@ -1,20 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SITE_URL } from "@/lib/config";
-import { LoadingIntro } from "@/components/LoadingIntro";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: {
-    default: "Vettri HRMS - Modern HRMS Software for Businesses",
+    title: {
+    default: "Vettri | Connected Workplace Platform",
     template: "%s | Vettri HRMS",
   },
   description:
-    "Vettri HRMS is a modern HR management platform for employee records, attendance, leave, payroll context and everyday workplace operations.",
+    "Vettri connects employee management, attendance, leave, payroll, recruitment and workplace technology in one intelligent platform.",
   openGraph: {
-    title: "Vettri HRMS - Modern HRMS Software for Businesses",
+    title: "Vettri | Connected Workplace Platform",
     description:
-      "Manage employee records, attendance, leave, payroll context and workplace operations in one connected HRMS platform.",
+      "Connect people, workplace operations and technology in one intelligent Vettri platform.",
     type: "website",
     url: SITE_URL,
     siteName: "Vettri HRMS",
@@ -80,7 +79,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="site-shell">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <a className="skip-link" href="#main-content">Skip to content</a>
-        <LoadingIntro />
         {children}
       </body>
     </html>

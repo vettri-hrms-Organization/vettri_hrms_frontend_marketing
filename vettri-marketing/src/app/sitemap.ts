@@ -1,8 +1,10 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/config";
 export default function sitemap(): MetadataRoute.Sitemap {
-	return ["/", "/platform", "/solutions", "/why-vettri", "/product-tour", "/security", "/pricing", "/about", "/contact"].map((path) => ({
-		url: `${SITE_URL}${path}`,
+	return [{
+		url: `${SITE_URL}/`,
 		lastModified: new Date(),
-	}));
+		changeFrequency: "weekly",
+		priority: 1,
+	}];
 }
