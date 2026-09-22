@@ -30,7 +30,7 @@ npm run start
 Optional public environment variables:
 
 - `NEXT_PUBLIC_APP_URL` — application URL, defaults to `https://app.vettrihrms.in`
-- `NEXT_PUBLIC_SITE_URL` — marketing URL, defaults to `https://vettrihrms.in`
+- `NEXT_PUBLIC_SITE_URL` — marketing URL, defaults to `https://www.vettrihrms.in`
 - `NEXT_PUBLIC_API_URL` — API URL, defaults to `https://api.vettrihrms.in`
 
 ## Design direction
