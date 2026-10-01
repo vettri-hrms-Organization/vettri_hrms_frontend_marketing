@@ -7,7 +7,7 @@ import { formatPrice, type PricingPlan } from "@/data/pricing";
 import { PricingFeatureList } from "./PricingFeatureList";
 
 export function PricingCard({ plan, index, billingCycle }: { plan: PricingPlan; index: number; billingCycle: "monthly" | "quarterly" | "annual" }) {
-  const href = `${APP_URL}/signup?plan=VETTRI_HRMS`;
+  const href = `${APP_URL}/signup?plan=STARTER`;
   const price = billingCycle === "annual" ? plan.priceAnnual : billingCycle === "quarterly" ? plan.priceQuarterly : plan.priceMonthly;
 
   return (

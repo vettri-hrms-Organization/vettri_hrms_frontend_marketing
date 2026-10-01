@@ -43,8 +43,8 @@ export function PricingSection() {
             <div className="offer-price"><span>₹{price?.toLocaleString("en-IN")}</span><small>/ employee / {billingUnit}</small></div>
             <div className="offer-equivalent">{billingCycle === "monthly" ? "Billed monthly per employee" : `≈ ₹${monthlyEquivalent?.toLocaleString("en-IN")}/employee/month equivalent`} {billingCycle === "annual" && <b>Save ₹{annualSaving.toLocaleString("en-IN")} / employee / year</b>}</div>
             <p>One connected platform for your people and workplace operations.</p>
-            <a className="btn btn-primary" href={`${APP_URL}/signup?plan=VETTRI_HRMS`}>Get started <ArrowRight size={16}/></a>
-            <div className="offer-note"><ShieldCheck size={14}/> ₹1 verification starts your free trial</div>
+            <a className="btn btn-primary" href={`${APP_URL}/signup?plan=STARTER`}>Start with Starter <ArrowRight size={16}/></a>
+            <div className="offer-note"><ShieldCheck size={14}/> Free trial available with no payment required</div>
           </motion.div>
         </div>
       </section>
@@ -62,7 +62,7 @@ export function PricingSection() {
               <div><span>ONE PRODUCT</span><h3>Vettri HRMS</h3><p>People, attendance, leave, payroll and workplace technology in one connected experience.</p></div>
             </div>
             <div className="premium-plan-price"><strong>₹{price?.toLocaleString("en-IN")}</strong><span>/ employee / {billingUnit}</span></div>
-            <a className="btn btn-primary" href={`${APP_URL}/signup?plan=VETTRI_HRMS`}>Start with Vettri <ArrowRight size={15}/></a>
+            <a className="btn btn-primary" href={`${APP_URL}/signup?plan=STARTER`}>Start with Starter <ArrowRight size={15}/></a>
           </div>
 
           <div className="premium-benefits" aria-label="What is included">

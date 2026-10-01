@@ -17,7 +17,7 @@ export default function SignupPage() {
       setError("Please complete the fields above to continue.");
       return;
     }
-    window.location.href = `${APP_URL}/signup?plan=VETTRI_HRMS`;
+    window.location.href = `${APP_URL}/signup?plan=TRIAL`;
   };
 
   return (
@@ -71,7 +71,7 @@ export default function SignupPage() {
           <form className="signup-v15-card" onSubmit={submit} noValidate>
             <div className="signup-v15-card-top">
               <div><span>STARTER SETUP</span><strong>Vettri HRMS</strong></div>
-              <div className="signup-v15-plan-price"><b>₹199</b><small>/ employee / month</small></div>
+              <div className="signup-v15-plan-price"><b>₹0</b><small>no payment required</small></div>
             </div>
 
             <div className="signup-v15-fields">
@@ -83,7 +83,7 @@ export default function SignupPage() {
 
             {error && <p className="signup-v15-error" role="alert">{error}</p>}
 
-            <button className="signup-v15-submit" type="submit">Continue to secure setup <ArrowRight size={17} /></button>
+            <button className="signup-v15-submit" type="submit">Start Free Trial <ArrowRight size={17} /></button>
             <p className="signup-v15-note"><ShieldCheck size={14} /> Your details are used only to start your Vettri account setup.</p>
           </form>
 
