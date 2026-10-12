@@ -5,6 +5,7 @@ import { ArrowRight, Check, CheckCircle2, ChevronRight, Clock3, Laptop2, LockKey
 import Image from "next/image";
 import { APP_URL } from "@/lib/config";
 import { plans } from "@/data/pricing";
+import { VettriAiShowcase } from "@/components/VettriAiShowcase";
 
 const modules = [
   { id: "people", label: "Employees", color: "#3B82F6", title: "Employee Directory", badge: "2,847 total", rows: ["Priya Sharma · Technology", "Arjun Mehta · Product", "Kavya Nair · People Ops", "Rohan Iyer · Design"] },
@@ -76,6 +77,8 @@ export default function FigmaMarketing() {
 
     <main id="main-content">
       <section id="hero" className="fig-hero"><div className="fig-grid" /><div className="fig-hero-glow" /><div className="fig-container fig-hero-grid"><Reveal className="fig-hero-copy"><Badge>Connected workplace platform</Badge><h1>Your entire<br /><em>workforce,</em><br />one platform.</h1><p>Vettri connects employee management, attendance, leave, payroll, recruitment and workplace technology into one intelligent system built for modern teams.</p><div className="fig-actions"><a className="fig-button" href={`${APP_URL}/signup`}>Start Free Trial <ArrowRight size={16} /></a><a className="fig-button fig-button-ghost" href="#platform">Explore platform</a></div><div className="fig-proof"><span><Check size={13} /> One connected layer</span><span><Check size={13} /> Built for modern teams</span><span><Check size={13} /> Real operational context</span></div></Reveal><Reveal className="fig-hero-product" delay={0.15}><ProductWindow /></Reveal></div><div className="fig-ribbon"><div className="fig-container"><span>PEOPLE</span><i /><span>WORKPLACE</span><i /><span>TECHNOLOGY</span><i /><b>ONE OPERATING PICTURE</b></div></div></section>
+
+      <VettriAiShowcase />
 
       <section id="platform" className="fig-section fig-platform"><div className="fig-container"><Reveal className="fig-centered-head"><Badge tone="cyan">The platform</Badge><h2>Every HR operation,<br /><em>beautifully connected</em></h2><p>From hiring to payroll, Vettri gives your team a single intelligent workspace where nothing falls through the cracks.</p></Reveal><Reveal delay={0.12}><ProductWindow /></Reveal></div></section>
 
