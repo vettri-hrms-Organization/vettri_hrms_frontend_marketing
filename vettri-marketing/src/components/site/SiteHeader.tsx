@@ -7,6 +7,7 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import { APP_URL } from "@/lib/config";
 
 const NAV = [
+  { href: "/#it", label: "IT management" },
   { href: "/#features", label: "Features" },
   { href: "/#tour", label: "Product tour" },
   { href: "/pricing", label: "Pricing" },

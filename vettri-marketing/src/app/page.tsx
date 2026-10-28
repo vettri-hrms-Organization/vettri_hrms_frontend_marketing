@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
-  ArrowRight, BadgeCheck, BriefcaseBusiness, CalendarCheck2, Check, CheckCircle2, Fingerprint, Sparkles, UsersRound, Wallet,
+  Activity, ArrowRight, BadgeCheck, BarChart3, BriefcaseBusiness, CalendarCheck2, Check, CheckCircle2, Fingerprint, MonitorCheck,
+  PackageCheck, ScreenShare, ShieldCheck, Sparkles, UsersRound, Wallet,
 } from "lucide-react";
 import { APP_URL } from "@/lib/config";
 import { createPageMetadata } from "@/lib/seo";
@@ -10,20 +11,21 @@ import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import Reveal from "@/components/site/Reveal";
 import Spotlight from "@/components/site/Spotlight";
+import ITShowcase from "@/components/site/ITShowcase";
 import BrowserFrame from "@/components/site/BrowserFrame";
 import ProductTour from "@/components/site/ProductTour";
 import PricingBlock from "@/components/site/PricingBlock";
 import Faq, { FAQ } from "@/components/site/Faq";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Vettri HRMS: all-in-one HR software for growing teams",
-  description: "Manage employees, attendance, leave, payroll and hiring in one simple app, with an AI assistant that answers your team's HR questions. Start a free trial.",
+  title: "Vettri HRMS: HR and IT management in one platform",
+  description: "Manage employees, attendance, leave, payroll and hiring, plus every company laptop: device inventory, live status, software deployment and remote support. Start a free trial.",
   path: "/",
   imageAlt: "Vettri HRMS dashboard",
 });
 
 const FACTS = [
-  { value: "All-in-one", label: "HR, attendance, leave, payroll and hiring" },
+  { value: "HR + IT", label: "your people and their devices, in one app" },
   { value: "₹199", label: "per employee per month" },
   { value: "Free trial", label: "no payment details needed" },
   { value: "Built in India", label: "for Indian payroll and holidays" },
@@ -38,8 +40,18 @@ const FEATURES = [
   { icon: Sparkles, title: "AI assistant", tone: "tone-cyan", copy: "Ask Vettri answers employees' HR questions and prepares leave requests, within their permissions." },
 ];
 
+const IT_FEATURES = [
+  { icon: MonitorCheck, title: "Device inventory", tone: "tone-blue", copy: "Every enrolled laptop with its employee, operating system, agent version and hardware scan. Export to CSV or Excel." },
+  { icon: Activity, title: "Live workforce status", tone: "tone-teal", copy: "See who is active, idle or offline right now, and which applications your team is using today." },
+  { icon: PackageCheck, title: "Software deployment", tone: "tone-violet", copy: "Upload an approved installer once, push it silently to the devices you pick and track every install." },
+  { icon: ScreenShare, title: "Remote desktop and CLI", tone: "tone-cyan", copy: "Help an employee without walking to their desk, with a remote desktop session or the Vettri command line." },
+  { icon: BarChart3, title: "Activity reports", tone: "tone-amber", copy: "Productivity and management reports by employee and application, ready to export and share." },
+  { icon: ShieldCheck, title: "Private by design", tone: "tone-rose", copy: "Devices join through a secure enrolment link, and activity is visible only to roles with monitoring access." },
+];
+
 const HOME_FAQ = FAQ.filter((item) => [
   "What does Vettri HRMS include?",
+  "How does IT management work?",
   "Can I try it before paying?",
   "Does attendance work with our biometric machines?",
   "Who can see what?",
@@ -56,10 +68,10 @@ export default function HomePage() {
           <div className="v-mesh" aria-hidden="true"><i /><i /><i /><i /></div>
           <div className="v-container">
             <div className="v-hero__copy">
-              <Link href="#ai" className="v-pill"><b>New</b> Meet Ask Vettri, your AI HR assistant <ArrowRight size={14} aria-hidden="true" /></Link>
-              <h1 className="v-h1">All-in-one HR software <span className="v-gtext">for growing teams</span></h1>
+              <Link href="#it" className="v-pill"><b>New</b> Vettri IT: manage every company laptop <ArrowRight size={14} aria-hidden="true" /></Link>
+              <h1 className="v-h1">HR and IT management <span className="v-gtext">in one platform</span></h1>
               <p className="v-lead v-hero__lead">
-                Manage employees, attendance, leave, payroll and hiring in one simple app, so your HR team spends less time on admin and more time on people.
+                Run employees, attendance, leave, payroll and hiring, and manage the laptops your team works on: device inventory, live status, software installs and remote support.
               </p>
               <div className="v-actions">
                 <a className="v-btn v-btn--primary" href={`${APP_URL}/signup`}>Start free trial <ArrowRight size={16} aria-hidden="true" /></a>
@@ -95,7 +107,38 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* 3. What's included */}
+        {/* 3. Signature: Vettri IT */}
+        <section id="it" className="v-section v-it">
+          <div className="v-it__mesh" aria-hidden="true"><i /><i /><i /></div>
+          <div className="v-container">
+            <Reveal>
+              <div className="v-section-head">
+                <p className="v-eyebrow"><MonitorCheck size={16} aria-hidden="true" /> Vettri IT · Built in</p>
+                <h2 className="v-h2">Every company laptop, <span className="v-gtext">managed from your HR app</span></h2>
+                <p className="v-lead">Most HR tools stop at people. Vettri also looks after the devices they work on, and every device is linked to the employee who uses it.</p>
+              </div>
+            </Reveal>
+            <ITShowcase />
+            <Spotlight className="v-grid3 v-it__grid">
+              {IT_FEATURES.map(({ icon: Icon, title, copy, tone }) => (
+                <Reveal key={title}>
+                  <article className={`v-card v-spot v-it__card ${tone}`}>
+                    <span className="v-icon"><Icon size={22} aria-hidden="true" /></span>
+                    <h3 className="v-h3">{title}</h3>
+                    <p>{copy}</p>
+                  </article>
+                </Reveal>
+              ))}
+            </Spotlight>
+            <ul className="v-it__facts">
+              <li><Check size={16} aria-hidden="true" /> Windows 10 and 11</li>
+              <li><Check size={16} aria-hidden="true" /> Lightweight Windows agent</li>
+              <li><Check size={16} aria-hidden="true" /> Included in every plan</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* 4. What's included */}
         <section id="features" className="v-section">
           <div className="v-container">
             <Reveal>
@@ -116,11 +159,11 @@ export default function HomePage() {
                 </Reveal>
               ))}
             </Spotlight>
-            <p className="v-more"><b>Also included:</b> performance reviews, reports, holiday calendar, document reminders, device management and audit logs.</p>
+            <p className="v-more"><b>Also included:</b> performance reviews, reports, holiday calendar, document reminders, role-based access and audit logs.</p>
           </div>
         </section>
 
-        {/* 4. Product tour */}
+        {/* 5. Product tour */}
         <section id="tour" className="v-section v-section--canvas">
           <div className="v-container">
             <Reveal>
@@ -134,7 +177,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 5. AI assistant */}
+        {/* 6. AI assistant */}
         <section id="ai" className="v-section">
           <div className="v-container v-split">
             <Reveal>
@@ -156,7 +199,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 6. Pricing */}
+        {/* 7. Pricing */}
         <section id="pricing" className="v-section v-section--canvas">
           <div className="v-container">
             <Reveal>
@@ -170,7 +213,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 7. FAQ + closing call to action */}
+        {/* 8. FAQ + closing call to action */}
         <section className="v-section">
           <div className="v-container v-container--narrow">
             <div className="v-section-head">
@@ -182,7 +225,7 @@ export default function HomePage() {
           <div className="v-container" style={{ marginTop: "clamp(64px, 8vw, 96px)" }}>
             <Reveal>
               <div className="v-cta">
-                <h2 className="v-h2">Ready to simplify HR?</h2>
+                <h2 className="v-h2">Ready to simplify HR and IT?</h2>
                 <p className="v-lead">Start your free trial today, or let us walk you through Vettri first.</p>
                 <div className="v-actions">
                   <a className="v-btn v-btn--primary" href={`${APP_URL}/signup`}>Start free trial <ArrowRight size={16} aria-hidden="true" /></a>

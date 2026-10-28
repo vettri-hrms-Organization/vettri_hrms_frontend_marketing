@@ -19,6 +19,7 @@ export default function SiteFooter() {
           <div>
             <h4>Product</h4>
             <ul>
+              <li><Link href="/#it">IT management</Link></li>
               <li><Link href="/#tour">Product tour</Link></li>
               <li><Link href="/#features">Features</Link></li>
               <li><Link href="/#ai">Ask Vettri AI</Link></li>

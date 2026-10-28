@@ -6,6 +6,10 @@ export const FAQ: FaqItem[] = [
     a: "Employee records and documents, attendance (GPS check-in and biometric devices), leave and holidays, salary structures and payslips, recruitment with a careers page, performance goals and reviews, reports, the Ask Vettri AI assistant, and IT tools for device inventory, software deployment and remote support. Every module is included in one plan.",
   },
   {
+    q: "How does IT management work?",
+    a: "Install the lightweight Vettri agent on each Windows 10 or 11 laptop using a secure enrolment link. The device then appears in your inventory, linked to its employee, and IT admins can scan hardware, see live status, deploy approved software and start remote support. Activity data is visible only to roles with monitoring access.",
+  },
+  {
     q: "How is pricing calculated?",
     a: "You pay per employee. The monthly price is ₹199 per employee, with a lower effective rate on quarterly and annual billing. There are no separate module add-ons.",
   },
