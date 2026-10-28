@@ -1,35 +1,14 @@
-"use client";
+import type { ReactNode } from "react";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
-
-/** Fades content up as it scrolls into view. Content is never left hidden:
- *  it also reveals if IntersectionObserver is unavailable or after 1.5s. */
+/**
+ * Scroll reveal driven entirely by CSS (animation-timeline: view(), see
+ * .v-reveal in site.css). Content is visible by default, so it can never be
+ * left hidden if JavaScript fails or the browser lacks scroll timelines.
+ * `delay` staggers siblings by shifting where in the scroll the reveal ends.
+ */
 export default function Reveal({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const node = ref.current;
-    if (!node || typeof IntersectionObserver === "undefined") {
-      setVisible(true);
-      return undefined;
-    }
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        setVisible(true);
-        observer.disconnect();
-      }
-    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
-    observer.observe(node);
-    const fallback = window.setTimeout(() => setVisible(true), 1500);
-    return () => {
-      observer.disconnect();
-      window.clearTimeout(fallback);
-    };
-  }, []);
-
   return (
-    <div ref={ref} className={`v-reveal${visible ? " is-visible" : ""} ${className}`.trim()} style={{ transitionDelay: `${delay}ms` }}>
+    <div className={`v-reveal ${className}`.trim()} style={delay ? ({ "--v-reveal-shift": `${Math.round(delay / 8)}%` } as React.CSSProperties) : undefined}>
       {children}
     </div>
   );

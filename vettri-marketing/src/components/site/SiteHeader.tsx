@@ -64,6 +64,7 @@ export default function SiteHeader({ solid = false }: { solid?: boolean }) {
         </div>
       </div>
 
+      <span className="v-progress" aria-hidden="true" />
       <nav id="v-mobile-nav" className={`v-mobile-nav${open ? " is-open" : ""}`} aria-label="Mobile">
         {NAV.map((item) => (
           <Link key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</Link>
