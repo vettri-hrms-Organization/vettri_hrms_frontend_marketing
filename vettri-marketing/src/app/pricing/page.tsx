@@ -35,9 +35,9 @@ export default function PricingPage() {
       <main id="main-content">
         <section className="v-page-hero">
           <div className="v-container">
-            <span className="v-eyebrow v-eyebrow--dark">Pricing</span>
-            <h1 className="v-h1">Simple pricing. <span className="v-gradient-text">Every module included.</span></h1>
-            <p className="v-hero__lead">One plan for your whole organisation, priced per employee. Start with a free trial.</p>
+            <p className="v-eyebrow">Pricing</p>
+            <h1 className="v-h1">Simple pricing. <span className="v-accent">Every module included.</span></h1>
+            <p className="v-lead">One plan for your whole organisation, priced per employee. Start with a free trial.</p>
           </div>
         </section>
 
@@ -72,7 +72,7 @@ export default function PricingPage() {
             <Faq items={pricingFaq} />
             <p className="v-lead" style={{ marginTop: 28, textAlign: "center" }}>
               Have more than a few hundred employees or a special requirement?{" "}
-              <Link href="/contact" className="v-blue-text" style={{ fontWeight: 700 }}>Talk to us <ArrowRight size={15} style={{ display: "inline", verticalAlign: "-2px" }} /></Link>
+              <Link href="/contact" className="v-accent" style={{ fontWeight: 700 }}>Talk to us <ArrowRight size={15} style={{ display: "inline", verticalAlign: "-2px" }} /></Link>
             </p>
           </div>
         </section>

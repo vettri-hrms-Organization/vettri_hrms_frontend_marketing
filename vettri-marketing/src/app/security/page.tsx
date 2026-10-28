@@ -31,17 +31,17 @@ export default function SecurityPage() {
       <main id="main-content">
         <section className="v-page-hero">
           <div className="v-container">
-            <span className="v-eyebrow v-eyebrow--dark"><ShieldCheck size={14} aria-hidden="true" /> Security</span>
-            <h1 className="v-h1">People data, <span className="v-gradient-text">protected by design.</span></h1>
-            <p className="v-hero__lead">Salaries, personal details and documents are some of the most sensitive data a company holds. Here is how Vettri keeps them in the right hands.</p>
+            <p className="v-eyebrow"><ShieldCheck size={14} aria-hidden="true" /> Security</p>
+            <h1 className="v-h1">People data, <span className="v-accent">protected by design.</span></h1>
+            <p className="v-lead">Salaries, personal details and documents are some of the most sensitive data a company holds. Here is how Vettri keeps them in the right hands.</p>
           </div>
         </section>
 
         <section className="v-section v-section--canvas">
           <div className="v-container">
-            <div className="v-bento">
+            <div className="v-grid2">
               {CONTROLS.map(({ icon: Icon, title, copy }, index) => (
-                <Reveal key={title} delay={(index % 3) * 70} className={index === 0 ? "v-card--wide" : ""}>
+                <Reveal key={title} delay={(index % 3) * 70}>
                   <article className="v-card" style={{ height: "100%" }}>
                     <span className="v-icon"><Icon size={21} aria-hidden="true" /></span>
                     <h2 className="v-h3">{title}</h2>
@@ -58,9 +58,9 @@ export default function SecurityPage() {
             <div className="v-cta">
               <h2 className="v-h2">Have a security questionnaire?</h2>
               <p className="v-lead">Send it to us and we&apos;ll answer it, or ask anything about how Vettri handles your data.</p>
-              <div className="v-hero__actions">
+              <div className="v-actions">
                 <Link className="v-btn v-btn--primary" href="/contact">Contact us <ArrowRight size={16} aria-hidden="true" /></Link>
-                <a className="v-btn v-btn--ghost-dark" href={`mailto:${SUPPORT_EMAIL}?subject=Security%20question`}>{SUPPORT_EMAIL}</a>
+                <a className="v-btn v-btn--on-dark" href={`mailto:${SUPPORT_EMAIL}?subject=Security%20question`}>{SUPPORT_EMAIL}</a>
               </div>
             </div>
           </div>

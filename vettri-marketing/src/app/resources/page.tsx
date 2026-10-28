@@ -15,7 +15,7 @@ export const metadata: Metadata = createPageMetadata({
 export default function ResourcesPage() {
   return (
     <>
-      <SiteHeader solid />
+      <SiteHeader />
 
       <main id="main-content" className="inner-page">
         <section className="inner-hero" style={{ paddingBottom: "clamp(3rem, 7vw, 6rem)" }}>

@@ -2,40 +2,30 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { APP_URL } from "@/lib/config";
 
 const NAV = [
-  { href: "/#product", label: "Product" },
   { href: "/#features", label: "Features" },
-  { href: "/security", label: "Security" },
+  { href: "/#tour", label: "Product tour" },
   { href: "/pricing", label: "Pricing" },
+  { href: "/security", label: "Security" },
   { href: "/contact", label: "Contact" },
 ];
 
-/** `solid` keeps the dark bar visible at the top, for pages without a dark hero. */
-export default function SiteHeader({ solid = false }: { solid?: boolean }) {
+export default function SiteHeader() {
   const pathname = usePathname();
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header className={`v-header${scrolled || open || solid ? " is-scrolled" : ""}`}>
+    <header className="v-header">
       <div className="v-container v-header__bar">
         <Link href="/" className="v-logo" aria-label="Vettri HRMS home">
-          <Image src="/brand/vettri-favicon.png" alt="" width={34} height={34} priority />
-          Vettri <small>HRMS</small>
+          <span className="v-logo__mark" aria-hidden="true" />
+          Vettri HRMS
         </Link>
 
         <nav className="v-nav" aria-label="Main">
@@ -64,7 +54,6 @@ export default function SiteHeader({ solid = false }: { solid?: boolean }) {
         </div>
       </div>
 
-      <span className="v-progress" aria-hidden="true" />
       <nav id="v-mobile-nav" className={`v-mobile-nav${open ? " is-open" : ""}`} aria-label="Mobile">
         {NAV.map((item) => (
           <Link key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</Link>

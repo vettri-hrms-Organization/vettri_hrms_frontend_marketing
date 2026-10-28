@@ -19,9 +19,9 @@ export default function ContactPage() {
       <main id="main-content">
         <section className="v-page-hero">
           <div className="v-container">
-            <span className="v-eyebrow v-eyebrow--dark">Contact</span>
-            <h1 className="v-h1">Let&apos;s talk about <span className="v-gradient-text">your team.</span></h1>
-            <p className="v-hero__lead">Book a walkthrough, ask about pricing or migrating your data, or get help with your workspace. You&apos;ll hear from the people who build Vettri.</p>
+            <p className="v-eyebrow">Contact</p>
+            <h1 className="v-h1">Let&apos;s talk about <span className="v-accent">your team.</span></h1>
+            <p className="v-lead">Book a walkthrough, ask about pricing or migrating your data, or get help with your workspace. You&apos;ll hear from the people who build Vettri.</p>
           </div>
         </section>
 
