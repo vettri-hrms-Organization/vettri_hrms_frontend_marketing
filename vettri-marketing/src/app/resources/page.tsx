@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BookOpenText, ArrowLeft } from "lucide-react";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import SiteFooter from "@/components/site/SiteFooter";
+import SiteHeader from "@/components/site/SiteHeader";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
@@ -15,7 +15,7 @@ export const metadata: Metadata = createPageMetadata({
 export default function ResourcesPage() {
   return (
     <>
-      <Navbar />
+      <SiteHeader solid />
 
       <main id="main-content" className="inner-page">
         <section className="inner-hero" style={{ paddingBottom: "clamp(3rem, 7vw, 6rem)" }}>
@@ -110,7 +110,7 @@ export default function ResourcesPage() {
         </section>
       </main>
 
-      <Footer />
+      <SiteFooter />
     </>
   );
 }

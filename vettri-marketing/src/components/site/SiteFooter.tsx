@@ -1,0 +1,52 @@
+import Link from "next/link";
+import Image from "next/image";
+import { APP_URL } from "@/lib/config";
+
+export const SUPPORT_EMAIL = "customersupport@vettrihrms.in";
+
+export default function SiteFooter() {
+  const year = new Date().getFullYear();
+  return (
+    <footer className="v-footer">
+      <div className="v-container">
+        <div className="v-footer__grid">
+          <div>
+            <Link href="/" className="v-logo" aria-label="Vettri HRMS home">
+              <Image src="/brand/vettri-favicon.png" alt="" width={34} height={34} />
+              Vettri <small>HRMS</small>
+            </Link>
+            <p>One platform for people, time, pay and workplace devices. Built in India for growing teams.</p>
+          </div>
+          <div>
+            <h4>Product</h4>
+            <ul>
+              <li><Link href="/#product">Product tour</Link></li>
+              <li><Link href="/#features">Features</Link></li>
+              <li><Link href="/#ask-vettri">Ask Vettri AI</Link></li>
+              <li><Link href="/pricing">Pricing</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><Link href="/security">Security</Link></li>
+              <li><Link href="/contact">Contact &amp; demo</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Get started</h4>
+            <ul>
+              <li><a href={`${APP_URL}/signup`}>Start free trial</a></li>
+              <li><a href={`${APP_URL}/login`}>Sign in</a></li>
+              <li><a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className="v-footer__bottom">
+          <span>© {year} Vettri HRMS. All rights reserved.</span>
+          <span>Made in India</span>
+        </div>
+      </div>
+    </footer>
+  );
+}

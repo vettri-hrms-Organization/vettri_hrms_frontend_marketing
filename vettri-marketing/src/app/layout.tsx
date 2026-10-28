@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
+import { Manrope } from "next/font/google";
 import "./globals.css";
+import "./site.css";
 import { SITE_URL } from "@/lib/config";
+
+// Same typeface as the Vettri product, self-hosted by next/font.
+const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -75,7 +80,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   ];
 
   return (
-    <html lang="en">
+    <html lang="en" className={manrope.variable}>
       <body className="site-shell">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <a className="skip-link" href="#main-content">Skip to content</a>
