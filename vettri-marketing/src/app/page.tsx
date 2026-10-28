@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
-  ArrowRight, BriefcaseBusiness, CalendarCheck2, Check, CheckCircle2, Fingerprint, Sparkles, UsersRound, Wallet,
+  ArrowRight, BadgeCheck, BriefcaseBusiness, CalendarCheck2, Check, CheckCircle2, Fingerprint, Sparkles, UsersRound, Wallet,
 } from "lucide-react";
 import { APP_URL } from "@/lib/config";
 import { createPageMetadata } from "@/lib/seo";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import Reveal from "@/components/site/Reveal";
+import Spotlight from "@/components/site/Spotlight";
 import BrowserFrame from "@/components/site/BrowserFrame";
 import ProductTour from "@/components/site/ProductTour";
 import PricingBlock from "@/components/site/PricingBlock";
@@ -29,12 +30,12 @@ const FACTS = [
 ];
 
 const FEATURES = [
-  { icon: UsersRound, title: "Employees", copy: "One complete profile for every person: job details, documents, reporting lines and history." },
-  { icon: Fingerprint, title: "Attendance", copy: "Check in from the browser with GPS, or connect your biometric machines. Work-from-home included." },
-  { icon: CalendarCheck2, title: "Leave", copy: "Employees apply in seconds, managers approve in one click, balances update automatically." },
-  { icon: Wallet, title: "Payroll", copy: "Salary structures with Basic, HRA, PF, PT and TDS, payroll runs and payslips for every employee." },
-  { icon: BriefcaseBusiness, title: "Hiring", copy: "Publish jobs on your careers page, track candidates through each stage and send offer letters." },
-  { icon: Sparkles, title: "AI assistant", copy: "Ask Vettri answers employees' HR questions and prepares leave requests, within their permissions." },
+  { icon: UsersRound, title: "Employees", tone: "tone-blue", copy: "One complete profile for every person: job details, documents, reporting lines and history." },
+  { icon: Fingerprint, title: "Attendance", tone: "tone-teal", copy: "Check in from the browser with GPS, or connect your biometric machines. Work-from-home included." },
+  { icon: CalendarCheck2, title: "Leave", tone: "tone-amber", copy: "Employees apply in seconds, managers approve in one click, balances update automatically." },
+  { icon: Wallet, title: "Payroll", tone: "tone-violet", copy: "Salary structures with Basic, HRA, PF, PT and TDS, payroll runs and payslips for every employee." },
+  { icon: BriefcaseBusiness, title: "Hiring", tone: "tone-rose", copy: "Publish jobs on your careers page, track candidates through each stage and send offer letters." },
+  { icon: Sparkles, title: "AI assistant", tone: "tone-cyan", copy: "Ask Vettri answers employees' HR questions and prepares leave requests, within their permissions." },
 ];
 
 const HOME_FAQ = FAQ.filter((item) => [
@@ -52,10 +53,11 @@ export default function HomePage() {
       <main id="main-content">
         {/* 1. Hero: what it is, who it's for, what to do next */}
         <section className="v-hero">
+          <div className="v-mesh" aria-hidden="true"><i /><i /><i /><i /></div>
           <div className="v-container">
             <div className="v-hero__copy">
               <Link href="#ai" className="v-pill"><b>New</b> Meet Ask Vettri, your AI HR assistant <ArrowRight size={14} aria-hidden="true" /></Link>
-              <h1 className="v-h1">All-in-one HR software <span className="v-accent">for growing teams</span></h1>
+              <h1 className="v-h1">All-in-one HR software <span className="v-gtext">for growing teams</span></h1>
               <p className="v-lead v-hero__lead">
                 Manage employees, attendance, leave, payroll and hiring in one simple app, so your HR team spends less time on admin and more time on people.
               </p>
@@ -71,7 +73,18 @@ export default function HomePage() {
             </div>
           </div>
           <div className="v-hero__shot">
-            <BrowserFrame src="/product/dashboard.webp" alt="The Vettri HRMS dashboard with workforce numbers and leave approvals" path="app.vettrihrms.in/dashboard" priority />
+            <div className="v-hero__stage">
+              <div className="v-hero__glow" aria-hidden="true" />
+              <BrowserFrame src="/product/dashboard.webp" alt="The Vettri HRMS dashboard with workforce numbers and leave approvals" path="app.vettrihrms.in/dashboard" priority />
+              <div className="v-glass v-glass--a" aria-hidden="true">
+                <span className="v-glass__icon"><BadgeCheck size={20} /></span>
+                <span><b>Leave approved</b><small>Balance updated automatically</small></span>
+              </div>
+              <div className="v-glass v-glass--b" aria-hidden="true">
+                <span className="v-glass__icon"><Sparkles size={20} /></span>
+                <span><b>Ask Vettri</b><small>&ldquo;How many leaves do I have?&rdquo;</small></span>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -88,21 +101,21 @@ export default function HomePage() {
             <Reveal>
               <div className="v-section-head">
                 <p className="v-eyebrow">Features</p>
-                <h2 className="v-h2">Everything HR needs, in one place</h2>
+                <h2 className="v-h2">Everything HR needs, <span className="v-gtext">in one place</span></h2>
                 <p className="v-lead">No more juggling spreadsheets and separate tools. Every part of Vettri shares the same employee record.</p>
               </div>
             </Reveal>
-            <div className="v-grid3">
-              {FEATURES.map(({ icon: Icon, title, copy }) => (
+            <Spotlight className="v-grid3">
+              {FEATURES.map(({ icon: Icon, title, copy, tone }) => (
                 <Reveal key={title}>
-                  <article className="v-card">
+                  <article className={`v-card v-spot ${tone}`}>
                     <span className="v-icon"><Icon size={22} aria-hidden="true" /></span>
                     <h3 className="v-h3">{title}</h3>
                     <p>{copy}</p>
                   </article>
                 </Reveal>
               ))}
-            </div>
+            </Spotlight>
             <p className="v-more"><b>Also included:</b> performance reviews, reports, holiday calendar, document reminders, device management and audit logs.</p>
           </div>
         </section>
@@ -126,7 +139,7 @@ export default function HomePage() {
           <div className="v-container v-split">
             <Reveal>
               <p className="v-eyebrow"><Sparkles size={16} aria-hidden="true" /> Ask Vettri AI</p>
-              <h2 className="v-h2">Answers for your team, without emailing HR</h2>
+              <h2 className="v-h2">Answers for your team, <span className="v-gtext">without emailing HR</span></h2>
               <p className="v-lead">Employees ask questions in plain language and get instant answers from their own records.</p>
               <ul className="v-checks">
                 <li><CheckCircle2 size={18} aria-hidden="true" />&ldquo;How much leave do I have left?&rdquo;</li>
