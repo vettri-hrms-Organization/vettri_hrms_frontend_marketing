@@ -633,3 +633,65 @@
   .v-it__switch button { flex: 1; justify-content: center; padding: 0 10px; font-size: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { .v-it__mesh i, .v-it__frame { animation: none !important; } }
+
+/* =========================================================================
+   SCROLL MOTION - everything is driven by the scroll position (no JS).
+   Browsers without scroll timelines simply show the finished state.
+   ========================================================================= */
+@supports (animation-timeline: scroll()) {
+  /* Reading progress bar under the header, plus a header that firms up. */
+  .v-header::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background: var(--g-brand);
+    transform-origin: 0 50%;
+    transform: scaleX(0);
+    animation: v-progress linear both;
+    animation-timeline: scroll(root);
+  }
+  @keyframes v-progress { to { transform: scaleX(1); } }
+  .v-header { animation: v-header-firm linear both; animation-timeline: scroll(root); animation-range: 0 140px; }
+  @keyframes v-header-firm { to { background: rgba(255, 255, 255, 0.95); box-shadow: 0 10px 30px -18px rgba(15, 23, 42, 0.35); } }
+
+  /* Hero: copy drifts up and fades, the screenshot flattens out of its tilt,
+     the colour mist sinks slower than the page (parallax). */
+  .v-hero__copy { animation: v-hero-out linear both; animation-timeline: scroll(root); animation-range: 0 700px; }
+  @keyframes v-hero-out { to { opacity: 0.25; transform: translateY(-70px) scale(0.96); } }
+  .v-hero__shot { animation: v-shot-flatten linear both; animation-timeline: scroll(root); animation-range: 0 520px; }
+  @keyframes v-shot-flatten { from { transform: perspective(1800px) rotateX(9deg) scale(0.95); } to { transform: none; } }
+  .v-mesh { animation: v-sink linear both; animation-timeline: scroll(root); animation-range: 0 900px; }
+  @keyframes v-sink { to { transform: translateY(220px); } }
+
+  /* Stronger reveal for headings, cards and blocks. */
+  .v-reveal { animation: v-reveal-rich linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+  @keyframes v-reveal-rich { from { opacity: 0; transform: translateY(56px) scale(0.96); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }
+  .v-grid3 > :nth-child(3n + 2) { animation-range: entry 8% entry 68%; }
+  .v-grid3 > :nth-child(3n + 3) { animation-range: entry 16% entry 76%; }
+
+  /* Fact tiles pop in one after another. */
+  .v-facts div { animation: v-pop linear both; animation-timeline: view(); animation-range: entry 0% entry 70%; }
+  .v-facts div:nth-child(2) { animation-range: entry 10% entry 80%; }
+  .v-facts div:nth-child(3) { animation-range: entry 20% entry 90%; }
+  .v-facts div:nth-child(4) { animation-range: entry 30% entry 100%; }
+  @keyframes v-pop { from { opacity: 0; transform: translateY(30px) scale(0.9); } to { opacity: 1; transform: none; } }
+
+  /* Product screens zoom up to full size as they scroll into view. */
+  .v-it__stage, .v-tour__panel { animation: v-zoom-in linear both; animation-timeline: view(); animation-range: entry 0% cover 35%; }
+  @keyframes v-zoom-in { from { opacity: 0.3; transform: perspective(1600px) rotateX(12deg) scale(0.86) translateY(60px); } to { opacity: 1; transform: none; } }
+
+  /* Background layers move at a different speed from the content. */
+  .v-it__mesh { animation: v-parallax linear both; animation-timeline: view(); }
+  @keyframes v-parallax { from { transform: translateY(-120px); } to { transform: translateY(120px); } }
+  .v-ai-visual img { animation: v-float-y linear both; animation-timeline: view(); }
+  @keyframes v-float-y { from { transform: translateY(50px); } to { transform: translateY(-50px); } }
+
+  /* Pricing card and closing banner grow into place. */
+  .v-price { animation: v-grow linear both; animation-timeline: view(); animation-range: entry 0% cover 30%; }
+  .v-cta { animation: v-cta-shift 14s ease-in-out infinite alternate, v-grow linear both; animation-timeline: auto, view(); animation-range: normal, entry 0% cover 35%; }
+  @keyframes v-grow { from { opacity: 0.4; transform: scale(0.9) translateY(40px); } to { opacity: 1; transform: none; } }
+}

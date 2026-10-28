@@ -107,13 +107,38 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* 3. Signature: Vettri IT */}
+        {/* 3. HR & IT management, part 1: HR */}
+        <section id="features" className="v-section">
+          <div className="v-container">
+            <Reveal>
+              <div className="v-section-head">
+                <p className="v-eyebrow"><UsersRound size={16} aria-hidden="true" /> HR management</p>
+                <h2 className="v-h2">Everything HR needs, <span className="v-gtext">in one place</span></h2>
+                <p className="v-lead">No more juggling spreadsheets and separate tools. Every part of Vettri shares the same employee record.</p>
+              </div>
+            </Reveal>
+            <Spotlight className="v-grid3">
+              {FEATURES.map(({ icon: Icon, title, copy, tone }) => (
+                <Reveal key={title}>
+                  <article className={`v-card v-spot ${tone}`}>
+                    <span className="v-icon"><Icon size={22} aria-hidden="true" /></span>
+                    <h3 className="v-h3">{title}</h3>
+                    <p>{copy}</p>
+                  </article>
+                </Reveal>
+              ))}
+            </Spotlight>
+            <p className="v-more"><b>Also included:</b> performance reviews, reports, holiday calendar, document reminders, role-based access and audit logs.</p>
+          </div>
+        </section>
+
+        {/* 4. HR & IT management, part 2: IT (the signature feature) */}
         <section id="it" className="v-section v-it">
           <div className="v-it__mesh" aria-hidden="true"><i /><i /><i /></div>
           <div className="v-container">
             <Reveal>
               <div className="v-section-head">
-                <p className="v-eyebrow"><MonitorCheck size={16} aria-hidden="true" /> Vettri IT · Built in</p>
+                <p className="v-eyebrow"><MonitorCheck size={16} aria-hidden="true" /> IT management · Built in</p>
                 <h2 className="v-h2">Every company laptop, <span className="v-gtext">managed from your HR app</span></h2>
                 <p className="v-lead">Most HR tools stop at people. Vettri also looks after the devices they work on, and every device is linked to the employee who uses it.</p>
               </div>
@@ -135,31 +160,6 @@ export default function HomePage() {
               <li><Check size={16} aria-hidden="true" /> Lightweight Windows agent</li>
               <li><Check size={16} aria-hidden="true" /> Included in every plan</li>
             </ul>
-          </div>
-        </section>
-
-        {/* 4. What's included */}
-        <section id="features" className="v-section">
-          <div className="v-container">
-            <Reveal>
-              <div className="v-section-head">
-                <p className="v-eyebrow">Features</p>
-                <h2 className="v-h2">Everything HR needs, <span className="v-gtext">in one place</span></h2>
-                <p className="v-lead">No more juggling spreadsheets and separate tools. Every part of Vettri shares the same employee record.</p>
-              </div>
-            </Reveal>
-            <Spotlight className="v-grid3">
-              {FEATURES.map(({ icon: Icon, title, copy, tone }) => (
-                <Reveal key={title}>
-                  <article className={`v-card v-spot ${tone}`}>
-                    <span className="v-icon"><Icon size={22} aria-hidden="true" /></span>
-                    <h3 className="v-h3">{title}</h3>
-                    <p>{copy}</p>
-                  </article>
-                </Reveal>
-              ))}
-            </Spotlight>
-            <p className="v-more"><b>Also included:</b> performance reviews, reports, holiday calendar, document reminders, role-based access and audit logs.</p>
           </div>
         </section>
 
