@@ -766,3 +766,49 @@
   .v-progress, .v-parallax, .v-section-head .v-h2 { animation: none !important; }
   .v-progress { display: none; }
 }
+
+/* Printing / saving as PDF: never leave scroll-revealed content hidden. */
+@media print {
+  .v-reveal, .v-section-head .v-h2, .v-parallax, .v-hero__tilt { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; }
+  .v-header { position: static; }
+}
+
+/* =========================================================================
+   QA fixes (responsive + legibility)
+   ========================================================================= */
+
+/* Footer: brand column gets its own row on small screens; long email wraps. */
+@media (max-width: 820px) {
+  .v-footer__grid > :first-child { grid-column: 1 / -1; }
+}
+.v-footer ul a { overflow-wrap: break-word; }
+
+/* Billing toggle: equal-width segments; savings tag drops under the label on phones. */
+@media (max-width: 560px) {
+  .v-billing { display: flex; width: 100%; }
+  .v-billing button { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 52px; padding: 6px 4px; }
+  .v-billing em { margin-left: 0; }
+}
+
+/* Product tour tabs: one swipeable row on phones instead of ragged wrapping. */
+@media (max-width: 760px) {
+  .v-tour__tabs {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .v-tour__tabs::-webkit-scrollbar { display: none; }
+  .v-tour__tab { flex-shrink: 0; scroll-snap-align: start; }
+}
+
+/* Legibility floor for small labels */
+.v-logo small { font-size: 11px; }
+.v-billing em { font-size: 12px; }
+.v-geo__dot { width: 32px; height: 32px; font-size: 11.5px; }
+
+/* Comfortable tap targets for inline contact links */
+.v-contact__item a { display: inline-block; padding: 6px 0; overflow-wrap: anywhere; }

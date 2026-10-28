@@ -38,7 +38,7 @@ export default function SiteFooter() {
             <ul>
               <li><a href={`${APP_URL}/signup`}>Start free trial</a></li>
               <li><a href={`${APP_URL}/login`}>Sign in</a></li>
-              <li><a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></li>
+              <li><a href={`mailto:${SUPPORT_EMAIL}`}>customersupport@<wbr />vettrihrms.in</a></li>
             </ul>
           </div>
         </div>
