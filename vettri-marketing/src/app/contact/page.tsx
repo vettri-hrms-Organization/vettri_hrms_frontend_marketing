@@ -42,7 +42,7 @@ export default function ContactPage() {
               </div>
               <div className="v-contact__item">
                 <span className="v-icon"><Rocket size={20} aria-hidden="true" /></span>
-                <div><b>Prefer to explore on your own?</b><a href={`${APP_URL}/signup`}>Start a free trial, no payment needed</a></div>
+                <div><b>Prefer to explore on your own?</b><a href={`${APP_URL}/signup`}>Start a free trial (₹1 verification)</a></div>
               </div>
             </div>
             <ContactForm />

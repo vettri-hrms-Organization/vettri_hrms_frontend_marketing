@@ -33,6 +33,16 @@ export default function SiteFooter() {
             </ul>
           </div>
           <div>
+            <h4>Legal</h4>
+            <ul>
+              <li><Link href="/terms">Terms of Service</Link></li>
+              <li><Link href="/privacy">Privacy Policy</Link></li>
+              <li><Link href="/dpa">Data Processing Agreement</Link></li>
+              <li><Link href="/refund-policy">Refund Policy</Link></li>
+              <li><Link href="/security">Security</Link></li>
+            </ul>
+          </div>
+          <div>
             <h4>Get started</h4>
             <ul>
               <li><a href={`${APP_URL}/signup`}>Start free trial</a></li>

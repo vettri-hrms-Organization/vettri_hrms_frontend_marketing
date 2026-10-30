@@ -27,7 +27,7 @@ export const metadata: Metadata = createPageMetadata({
 const FACTS = [
   { value: "HR + IT", label: "your people and their devices, in one app" },
   { value: "₹199", label: "per employee per month" },
-  { value: "Free trial", label: "no payment details needed" },
+  { value: "Free trial", label: "just a ₹1 verification to start" },
   { value: "Built in India", label: "for Indian payroll and holidays" },
 ];
 
@@ -78,7 +78,7 @@ export default function HomePage() {
                 <Link className="v-btn v-btn--secondary" href="/contact">Book a demo</Link>
               </div>
               <ul className="v-assure">
-                <li><Check size={16} aria-hidden="true" /> No payment needed</li>
+                <li><Check size={16} aria-hidden="true" /> Only ₹1 to verify</li>
                 <li><Check size={16} aria-hidden="true" /> Every feature included</li>
                 <li><Check size={16} aria-hidden="true" /> Works on any device</li>
               </ul>
