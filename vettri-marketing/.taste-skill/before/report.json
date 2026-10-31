@@ -1,0 +1,2783 @@
+{
+ "url": "http://localhost:3100/",
+ "at": "2026-10-31T05:33:21.025Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.36,
+    0.33,
+    0.79,
+    1,
+    0.98,
+    0.51,
+    0.65,
+    0.46,
+    0.65,
+    0.65,
+    0.65
+   ],
+   "motion": {
+    "elements": 56,
+    "css": 56,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 9259,
+     "screens": 10.3,
+     "words": 794,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 56,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fproduct%2Fdashboard.webp&w=1200&q=7",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=1200&q=",
+      "image?url=%2Fproduct%2Fdashboard.webp&w=1200&q=7",
+      "image?url=%2Fproduct%2Fask-panel.webp&w=1080&q=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HR and IT management in one platform",
+     "words": 7,
+     "chars": 36,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.038,
+     "leading": 1.06,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.46,
+     "top": 181,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HR and IT management in one platform",
+     "words": 7,
+     "lines": 2,
+     "size": 64,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "HR and IT management in one platform",
+      "words": 7,
+      "chars": 36,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.038,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 181,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Everything HR needs, in one place",
+      "words": 6,
+      "chars": 33,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.36,
+      "top": 1421,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Every company laptop, managed from your HR app",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.38,
+      "top": 2158,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "See how it works",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.36,
+      "top": 3812,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Answers for your team, without emailing HR",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 4825,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Simple pricing, everything included",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.36,
+      "top": 5413,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹179",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 5756,
+      "gradientText": true,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Common questions",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.38,
+      "top": 6193,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to simplify HR and IT?",
+      "words": 6,
+      "chars": 28,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.57,
+      "top": 6872,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Instrument Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      24,
+      26,
+      42,
+      56,
+      64
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 15.5,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.9
+     },
+     "measureChars": 123,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Manrope",
+      "text": "HR and IT management"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.25,
+     "smallText": 4
+    },
+    "eyebrows": [
+     {
+      "text": "Vettri IT: manage every company laptop",
+      "above": "HR and IT management in one platform",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 132
+     },
+     {
+      "text": "HR management",
+      "above": "Everything HR needs, in one place",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 1383
+     },
+     {
+      "text": "IT management · Built in",
+      "above": "Every company laptop, managed from your ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 2119
+     },
+     {
+      "text": "Product tour",
+      "above": "See how it works",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 3774
+     },
+     {
+      "text": "Ask Vettri AI",
+      "above": "Answers for your team, without emailing ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 4787
+     },
+     {
+      "text": "Pricing",
+      "above": "Simple pricing, everything included",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 5375
+     },
+     {
+      "text": "Vettri HRMS: everything included",
+      "above": "₹179",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14.5,
+      "top": 5729
+     },
+     {
+      "text": "FAQ",
+      "above": "Common questions",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 6153
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f7f9fc",
+       "top": 3636,
+       "hsl": {
+        "h": 216,
+        "s": 0.45,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#10172a",
+       "top": 7098,
+       "hsl": {
+        "h": 224,
+        "s": 0.45,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5b6478",
+       "share": 0.5
+      },
+      {
+       "color": "#344054",
+       "share": 0.12
+      },
+      {
+       "color": "#a9b3ce",
+       "share": 0.1
+      },
+      {
+       "color": "#0f172a",
+       "share": 0.09
+      },
+      {
+       "color": "#9aa6c0",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#4f74f0",
+      "hsl": {
+       "h": 226,
+       "s": 0.84,
+       "l": 0.63
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 5,
+     "radius": 12,
+     "height": 35,
+     "withShadow": 9,
+     "withGradient": 5,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start free trial",
+      "New Vettri IT: manage every company lapt",
+      "Start free trial",
+      "Book a demo"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 27,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "a.v-pill → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "a.v-btn.v-btn--primary → rgba(16, 24, 40, 0.12) 0px 1px 2px 0px, rgba(99, 102, 241, 0.85) 0px 10px 26px -",
+      "a.v-btn.v-btn--secondary → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "div.v-browser → rgba(16, 24, 40, 0.05) 0px 2px 6px 0px, rgba(16, 24, 40, 0.35) 0px 40px 80px -36"
+     ],
+     "gradients": 5,
+     "scrims": 6,
+     "gradientSamples": [
+      "div.v-hero__glow → linear-gradient(110deg, rgb(65, 105, 225), rgb(99, 102, 241) 35%, rgb(139, 92, 246) 65%, rgb(6, 182, 212))",
+      "section#it.v-section.v-it → radial-gradient(50% 40% at 50% 0px, rgba(99, 102, 241, 0.35), rgba(0, 0, 0, 0) 75%), linear-gradient(rgb(10, 1",
+      "div.v-it__glow → linear-gradient(110deg, rgb(65, 105, 225), rgb(99, 102, 241) 35%, rgb(139, 92, 246) 65%, rgb(6, 182, 212))",
+      "div.v-ai-visual → radial-gradient(60% 60% at 20% 20%, rgba(139, 92, 246, 0.35), rgba(0, 0, 0, 0) 70%), radial-gradient(60% 60% a"
+     ],
+     "gradientText": 9,
+     "hairlines": 8,
+     "hairlineSamples": [
+      "div.v-browser 807px",
+      "div.v-browser__bar 763px",
+      "div.v-browser__bar 984px",
+      "section#tour.v-section.v-section--canvas 1440px",
+      "div.v-browser__bar 550px"
+     ],
+     "outlinedBoxes": 18,
+     "dashed": 0,
+     "blurred": 12,
+     "roundedBoxes": 27,
+     "boxRadius": 18,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1134
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.2
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 55,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 9259,
+    "margins": {
+     "left": 246,
+     "right": 248
+    },
+    "sections": [
+     {
+      "sel": "section.v-hero",
+      "tag": "section",
+      "top": 55,
+      "height": 1023,
+      "words": 72,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "HR and IT management",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 317,
+      "right": 314,
+      "textLeft": 361,
+      "textRight": 314,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-facts",
+      "tag": "div",
+      "top": 1079,
+      "height": 167,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#features.v-section",
+      "tag": "section",
+      "top": 1246,
+      "height": 783,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 383,
+      "right": 383,
+      "textLeft": 383,
+      "textRight": 383,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-it__mesh",
+      "tag": "div",
+      "top": 2029,
+      "height": 1607,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-container",
+      "tag": "div",
+      "top": 2119,
+      "height": 1428,
+      "words": 181,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every company laptop,",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 228,
+      "right": 228,
+      "textLeft": 251,
+      "textRight": 259,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tour.v-section.v-section--canvas",
+      "tag": "section",
+      "top": 3636,
+      "height": 902,
+      "words": 70,
+      "media": 1,
+      "middle": 3,
+      "heading": {
+       "text": "Know what needs you, the moment you log in",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 294,
+      "right": 281,
+      "textLeft": 294,
+      "textRight": 462,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#ai.v-section",
+      "tag": "section",
+      "top": 4538,
+      "height": 699,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.v-section.v-section--canvas",
+      "tag": "section",
+      "top": 5237,
+      "height": 827,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "₹179",
+       "size": 56,
+       "tag": "b"
+      },
+      "left": 414,
+      "right": 421,
+      "textLeft": 414,
+      "textRight": 421,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.v-section",
+      "tag": "section",
+      "top": 6064,
+      "height": 1034,
+      "words": 267,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Common questions",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 246,
+      "right": 247,
+      "textLeft": 246,
+      "textRight": 247,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.v-footer",
+      "tag": "footer",
+      "top": 7098,
+      "height": 309,
+      "words": 64,
+      "media": 0,
+      "middle": 100,
+      "heading": {
+       "text": "Product",
+       "size": 15,
+       "tag": "h4"
+      },
+      "left": 227,
+      "right": 227,
+      "textLeft": 227,
+      "textRight": 227,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "HR and IT management in one platform",
+      "size": 64,
+      "top": 181,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 246,
+      "n": 10
+     },
+     {
+      "x": 584,
+      "n": 4
+     },
+     {
+      "x": 918,
+      "n": 4
+     },
+     {
+      "x": 294,
+      "n": 2
+     },
+     {
+      "x": 753,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.18,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 300,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.62,
+    0.44,
+    0.74,
+    1,
+    0.92,
+    0.75,
+    0.76,
+    0.74,
+    0.91,
+    0.92
+   ],
+   "motion": {
+    "elements": 56,
+    "css": 56,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9349,
+     "screens": 9.1,
+     "words": 780,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 56,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fproduct%2Fdashboard.webp&w=828&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=828&q=7",
+      "image?url=%2Fproduct%2Fdashboard.webp&w=828&q=75",
+      "image?url=%2Fproduct%2Fask-panel.webp&w=1080&q=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HR and IT management in one platform",
+     "words": 7,
+     "chars": 36,
+     "lines": 2,
+     "size": 41.5,
+     "vw": 5.4,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.038,
+     "leading": 1.06,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 194,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HR and IT management in one platform",
+     "words": 7,
+     "lines": 2,
+     "size": 41.5,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "HR and IT management in one platform",
+      "words": 7,
+      "chars": 36,
+      "lines": 2,
+      "size": 41.5,
+      "vw": 5.4,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.038,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 194,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Everything HR needs, in one place",
+      "words": 6,
+      "chars": 33,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 1479,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Every company laptop, managed from your HR app",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2553,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "See how it works",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 4391,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Answers for your team, without emailing HR",
+      "words": 7,
+      "chars": 42,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5555,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Simple pricing, everything included",
+      "words": 4,
+      "chars": 35,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 6648,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹179",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 56,
+      "vw": 7.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 6920,
+      "gradientText": true,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Common questions",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 7675,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to simplify HR and IT?",
+      "words": 6,
+      "chars": 28,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 8430,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Instrument Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      30,
+      42,
+      56
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 15.5,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.9
+     },
+     "measureChars": 90,
+     "max": {
+      "size": 56,
+      "vw": 7.3,
+      "font": "Manrope",
+      "text": "₹179"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.25,
+     "smallText": 4
+    },
+    "eyebrows": [
+     {
+      "text": "Vettri IT: manage every company laptop",
+      "above": "HR and IT management in one platform",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 133
+     },
+     {
+      "text": "HR management",
+      "above": "Everything HR needs, in one place",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 1432
+     },
+     {
+      "text": "IT management · Built in",
+      "above": "Every company laptop, managed from your ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 2504
+     },
+     {
+      "text": "Product tour",
+      "above": "See how it works",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 4344
+     },
+     {
+      "text": "Ask Vettri AI",
+      "above": "Answers for your team, without emailing ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 5508
+     },
+     {
+      "text": "Pricing",
+      "above": "Simple pricing, everything included",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 6601
+     },
+     {
+      "text": "Vettri HRMS: everything included",
+      "above": "₹179",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14.5,
+      "top": 6887
+     },
+     {
+      "text": "FAQ",
+      "above": "Common questions",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 7626
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f7f9fc",
+       "top": 4212,
+       "hsl": {
+        "h": 216,
+        "s": 0.45,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#10172a",
+       "top": 8603,
+       "hsl": {
+        "h": 224,
+        "s": 0.45,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5b6478",
+       "share": 0.5
+      },
+      {
+       "color": "#344054",
+       "share": 0.12
+      },
+      {
+       "color": "#a9b3ce",
+       "share": 0.1
+      },
+      {
+       "color": "#0f172a",
+       "share": 0.09
+      },
+      {
+       "color": "#9aa6c0",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 12,
+     "height": 44,
+     "withShadow": 8,
+     "withGradient": 4,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "New Vettri IT: manage every company lapt",
+      "Start free trial",
+      "Book a demo"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 33,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "a.v-pill → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "a.v-btn.v-btn--primary → rgba(16, 24, 40, 0.12) 0px 1px 2px 0px, rgba(99, 102, 241, 0.85) 0px 10px 26px -",
+      "a.v-btn.v-btn--secondary → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "div.v-browser → rgba(16, 24, 40, 0.05) 0px 2px 6px 0px, rgba(16, 24, 40, 0.35) 0px 40px 80px -36"
+     ],
+     "gradients": 10,
+     "scrims": 6,
+     "gradientSamples": [
+      "div.v-hero__glow → linear-gradient(110deg, rgb(65, 105, 225), rgb(99, 102, 241) 35%, rgb(139, 92, 246) 65%, rgb(6, 182, 212))",
+      "div → linear-gradient(rgb(255, 255, 255), rgb(250, 251, 255))",
+      "div → linear-gradient(rgb(255, 255, 255), rgb(250, 251, 255))",
+      "div → linear-gradient(rgb(255, 255, 255), rgb(250, 251, 255))"
+     ],
+     "gradientText": 9,
+     "hairlines": 8,
+     "hairlineSamples": [
+      "div.v-browser 698px",
+      "div.v-browser__bar 671px",
+      "div.v-browser__bar 718px",
+      "section#tour.v-section.v-section--canvas 768px",
+      "div.v-browser__bar 616px"
+     ],
+     "outlinedBoxes": 18,
+     "dashed": 0,
+     "blurred": 12,
+     "roundedBoxes": 27,
+     "boxRadius": 18,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.36
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 69,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9349,
+    "margins": {
+     "left": 24,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "section.v-hero",
+      "tag": "section",
+      "top": 69,
+      "height": 979,
+      "words": 72,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "HR and IT management",
+       "size": 41,
+       "tag": "h1"
+      },
+      "left": 36,
+      "right": 36,
+      "textLeft": 82,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-facts",
+      "tag": "div",
+      "top": 1048,
+      "height": 254,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#features.v-section",
+      "tag": "section",
+      "top": 1301,
+      "height": 1131,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 43,
+      "right": 43,
+      "textLeft": 43,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-it__mesh",
+      "tag": "div",
+      "top": 2432,
+      "height": 1780,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-container",
+      "tag": "div",
+      "top": 2504,
+      "height": 1636,
+      "words": 181,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every company laptop,",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 46,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tour.v-section.v-section--canvas",
+      "tag": "section",
+      "top": 4212,
+      "height": 1162,
+      "words": 70,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Know what needs you, the moment you log in",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 46,
+      "right": 46,
+      "textLeft": 82,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#ai.v-section",
+      "tag": "section",
+      "top": 5375,
+      "height": 1095,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.v-section.v-section--canvas",
+      "tag": "section",
+      "top": 6470,
+      "height": 1085,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "₹179",
+       "size": 56,
+       "tag": "b"
+      },
+      "left": 89,
+      "right": 171,
+      "textLeft": 89,
+      "textRight": 205,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.v-section",
+      "tag": "section",
+      "top": 7554,
+      "height": 1048,
+      "words": 267,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Common questions",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 48,
+      "textLeft": 47,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.v-footer",
+      "tag": "footer",
+      "top": 8603,
+      "height": 746,
+      "words": 64,
+      "media": 0,
+      "middle": 79,
+      "heading": {
+       "text": "Product",
+       "size": 15,
+       "tag": "h4"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "HR and IT management in one platform",
+      "size": 41,
+      "top": 194,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 12
+     },
+     {
+      "x": 423,
+      "n": 6
+     },
+     {
+      "x": 82,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.57,
+    0.47,
+    0.27,
+    0.55,
+    0.99,
+    1,
+    1,
+    0.9,
+    0.75,
+    0.79,
+    0.77,
+    0.71
+   ],
+   "motion": {
+    "elements": 53,
+    "css": 53,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11156,
+     "screens": 13.2,
+     "words": 761,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 56,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fproduct%2Fdashboard.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=640&q=7",
+      "image?url=%2Fproduct%2Fdashboard.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fask-panel.webp&w=1080&q=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HR and IT management in one platform",
+     "words": 7,
+     "chars": 36,
+     "lines": 3,
+     "size": 38,
+     "vw": 9.7,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.038,
+     "leading": 1.06,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 213,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HR and IT management in one platform",
+     "words": 7,
+     "lines": 3,
+     "size": 38,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "HR and IT management in one platform",
+      "words": 7,
+      "chars": 36,
+      "lines": 3,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.038,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 213,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Everything HR needs, in one place",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 1397,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Every company laptop, managed from your HR app",
+      "words": 8,
+      "chars": 46,
+      "lines": 3,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3295,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "See how it works",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 5791,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Know what needs you, the moment you log in",
+      "words": 9,
+      "chars": 42,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 750,
+      "tracking": -0.025,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 6070,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Answers for your team, without emailing HR",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 6878,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Simple pricing, everything included",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 7977,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹179",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 8307,
+      "gradientText": true,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Common questions",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 9216,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to simplify HR and IT?",
+      "words": 6,
+      "chars": 28,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.65,
+      "top": 10069,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Instrument Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      30,
+      38,
+      56
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 15.5,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.9
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Manrope",
+      "text": "₹179"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.26,
+     "smallText": 4
+    },
+    "eyebrows": [
+     {
+      "text": "Vettri IT: manage every company laptop",
+      "above": "HR and IT management in one platform",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 133
+     },
+     {
+      "text": "HR management",
+      "above": "Everything HR needs, in one place",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 1350
+     },
+     {
+      "text": "IT management · Built in",
+      "above": "Every company laptop, managed from your ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 3246
+     },
+     {
+      "text": "Product tour",
+      "above": "See how it works",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 5744
+     },
+     {
+      "text": "Ask Vettri AI",
+      "above": "Answers for your team, without emailing ",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 6831
+     },
+     {
+      "text": "Pricing",
+      "above": "Simple pricing, everything included",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 7930
+     },
+     {
+      "text": "Vettri HRMS: everything included",
+      "above": "₹179",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14.5,
+      "top": 8273
+     },
+     {
+      "text": "FAQ",
+      "above": "Common questions",
+      "upper": true,
+      "tracked": false,
+      "mono": false,
+      "pill": true,
+      "size": 14,
+      "top": 9167
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f7f9fc",
+       "top": 5612,
+       "hsl": {
+        "h": 216,
+        "s": 0.45,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#10172a",
+       "top": 10353,
+       "hsl": {
+        "h": 224,
+        "s": 0.45,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5b6478",
+       "share": 0.5
+      },
+      {
+       "color": "#344054",
+       "share": 0.12
+      },
+      {
+       "color": "#a9b3ce",
+       "share": 0.1
+      },
+      {
+       "color": "#0f172a",
+       "share": 0.09
+      },
+      {
+       "color": "#9aa6c0",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 12,
+     "height": 44,
+     "withShadow": 8,
+     "withGradient": 4,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "New Vettri IT: manage every company lapt",
+      "Start free trial",
+      "Book a demo"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 30,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "a.v-pill → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "a.v-btn.v-btn--primary → rgba(16, 24, 40, 0.12) 0px 1px 2px 0px, rgba(99, 102, 241, 0.85) 0px 10px 26px -",
+      "a.v-btn.v-btn--secondary → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "div.v-browser → rgba(16, 24, 40, 0.05) 0px 2px 6px 0px, rgba(16, 24, 40, 0.35) 0px 40px 80px -36"
+     ],
+     "gradients": 12,
+     "scrims": 6,
+     "gradientSamples": [
+      "a.v-btn.v-btn--primary → linear-gradient(135deg, rgb(79, 116, 240), rgb(65, 105, 225) 45%, rgb(99, 102, 241))",
+      "div.v-hero__glow → linear-gradient(110deg, rgb(65, 105, 225), rgb(99, 102, 241) 35%, rgb(139, 92, 246) 65%, rgb(6, 182, 212))",
+      "div → linear-gradient(rgb(255, 255, 255), rgb(250, 251, 255))",
+      "div → linear-gradient(rgb(255, 255, 255), rgb(250, 251, 255))"
+     ],
+     "gradientText": 9,
+     "hairlines": 8,
+     "hairlineSamples": [
+      "div.v-browser 328px",
+      "div.v-browser__bar 321px",
+      "div.v-browser__bar 340px",
+      "section#tour.v-section.v-section--canvas 390px",
+      "div.v-browser__bar 298px"
+     ],
+     "outlinedBoxes": 22,
+     "dashed": 0,
+     "blurred": 9,
+     "roundedBoxes": 31,
+     "boxRadius": 18,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 981
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 9290
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 69,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 11156,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.v-hero",
+      "tag": "section",
+      "top": 69,
+      "height": 852,
+      "words": 59,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "HR and IT management",
+       "size": 38,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-facts",
+      "tag": "div",
+      "top": 921,
+      "height": 297,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#features.v-section",
+      "tag": "section",
+      "top": 1218,
+      "height": 1956,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 34,
+      "right": 34,
+      "textLeft": 34,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-it__mesh",
+      "tag": "div",
+      "top": 3174,
+      "height": 2438,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.v-container",
+      "tag": "div",
+      "top": 3246,
+      "height": 2294,
+      "words": 173,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every company laptop,",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 30,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tour.v-section.v-section--canvas",
+      "tag": "section",
+      "top": 5612,
+      "height": 1082,
+      "words": 67,
+      "media": 1,
+      "middle": 202,
+      "heading": {
+       "text": "Know what needs you, the moment you log in",
+       "size": 24,
+       "tag": "h3"
+      },
+      "left": 30,
+      "right": 0,
+      "textLeft": 50,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#ai.v-section",
+      "tag": "section",
+      "top": 6694,
+      "height": 1104,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.v-section.v-section--canvas",
+      "tag": "section",
+      "top": 7798,
+      "height": 1297,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "₹179",
+       "size": 56,
+       "tag": "b"
+      },
+      "left": 30,
+      "right": 30,
+      "textLeft": 55,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.v-section",
+      "tag": "section",
+      "top": 9095,
+      "height": 1258,
+      "words": 267,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Common questions",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 47,
+      "right": 49,
+      "textLeft": 47,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.v-footer",
+      "tag": "footer",
+      "top": 10353,
+      "height": 804,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Product",
+       "size": 15,
+       "tag": "h4"
+      },
+      "left": 24,
+      "right": 44,
+      "textLeft": 24,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "HR and IT management in one platform",
+      "size": 38,
+      "top": 213,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 20
+     },
+     {
+      "x": 67,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "8 eyebrow/kicker label(s) above headings: \"Vettri IT: manage every company laptop\" (pill) above \"HR and IT management in one platform\"; \"HR management\" (pill) above \"Everything HR needs, in one place\"; \"IT management · Built in\" (pill) above \"Every company laptop, managed from your \"; \"Product tour\" (pill) above \"See how it works\"; \"Ask Vettri AI\" (pill) above \"Answers for your team, without emailing \"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "5 gradient fill(s): div.v-hero__glow → linear-gradient(110deg, rgb(65, 105, 225), rgb(99, 102, 241) 35%, rgb(139, 92, 246) 65%, rgb(6, 182, 212)) | section#it.v-section.v-it → radial-gradient(50% 40% at 50% 0px, rgba(99, 102, 241, 0.35), rgba(0, 0, 0, 0) 75%), linear-gradient(rgb(10, 1 | div.v-it__glow → linear-gradient(110deg, rgb(65, 105, 225), rgb(99, 102, 241) 35%, rgb(139, 92, 246) 65%, rgb(6, 182, 212))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient-text",
+   "width": 1440,
+   "message": "9 gradient-filled text element(s).",
+   "fix": "Solid colour text.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "27 box-shadow(s) on elements at rest: a.v-pill → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px | a.v-btn.v-btn--primary → rgba(16, 24, 40, 0.12) 0px 1px 2px 0px, rgba(99, 102, 241, 0.85) 0px 10px 26px - | a.v-btn.v-btn--secondary → rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with gradient fill and shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "8 thin rule(s)/divider line(s): div.v-browser 807px | div.v-browser__bar 763px | div.v-browser__bar 984px | section#tour.v-section.v-section--canvas 1440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "18 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "12 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "14 different font sizes (12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 26, 42, 56, 64).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15.5px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (5.9:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 123 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "4 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 4 screens in a row: \"Ready to simplify HR and IT?\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"HR and IT management in one platform\" → 3 lines (7 words, 38px); \"Every company laptop, managed from your HR app\" → 3 lines (8 words, 30px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 390,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 390,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\desktop-page-01.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\desktop-page-02.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\tablet-page-01.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\mobile-page-01.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

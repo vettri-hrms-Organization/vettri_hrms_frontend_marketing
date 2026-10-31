@@ -1,0 +1,3308 @@
+{
+ "url": "http://localhost:3100/",
+ "at": "2026-10-31T05:52:31.460Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    0.96,
+    1,
+    1,
+    1,
+    1,
+    0.96,
+    0.89,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 6,
+    "transitions": 32,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 10474,
+     "screens": 11.6,
+     "words": 931,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fproduct%2Fdashboard.webp&w=750&q=75",
+      "image?url=%2Fproduct%2Fleave.webp&w=384&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=384&q=7",
+      "image?url=%2Fproduct%2Femployees.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fleave.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fpayslip.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fpipeline.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=640&q=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HR and laptops, in one app.",
+     "words": 6,
+     "chars": 27,
+     "lines": 2,
+     "size": 102.4,
+     "vw": 7.1,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.62,
+     "top": 640,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HR and laptops, in one app.",
+     "words": 6,
+     "lines": 2,
+     "size": 102.4,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "HR and laptops, in one app.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 102.4,
+      "vw": 7.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 640,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Punches in,",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1611,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "attendance out.",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 1611,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One record for each person",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.53,
+      "top": 1883,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Employees and their documents",
+      "words": 4,
+      "chars": 29,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 2507,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Leave without the email chain",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 3101,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Payroll with PF, ESI and PT",
+      "words": 6,
+      "chars": 27,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 3571,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hiring to the first day",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 4124,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Every company laptop",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 4704,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "From sign-up to payroll",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 5311,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Two minutes",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 5465,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "An afternoon",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 5465,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "About a day",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.23,
+      "top": 5465,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Month end",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 5465,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Indian payroll, line by line",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 6000,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Monthly",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 7038,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Yearly",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 7038,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹199 per employee a month",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 102.4,
+      "vw": 7.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 7585,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "₹179 per employee a month",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 102.4,
+      "vw": 7.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.15,
+      "top": 7585,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 7949,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bring your own team",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 9411,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Try Vettri with your real team. Start your free trial, or book a demo and we will set it up with you.",
+      "words": 22,
+      "chars": 101,
+      "lines": 3,
+      "size": 29.9,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 9513,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "customersupport @vettrihrms.in",
+      "words": 2,
+      "chars": 30,
+      "lines": 2,
+      "size": 134.1,
+      "vw": 9.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 10089,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 23,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 8,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Instrument Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      19,
+      22,
+      30,
+      71,
+      102,
+      134
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.1
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 134.1,
+      "vw": 9.3,
+      "font": "Manrope",
+      "text": "customersupport"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f3f0",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 0.15,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#10172a",
+       "top": 88,
+       "hsl": {
+        "h": 224,
+        "s": 0.45,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1f4fff",
+       "top": 900,
+       "hsl": {
+        "h": 227,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#e9e7e2",
+       "top": 900,
+       "hsl": {
+        "h": 43,
+        "s": 0.14,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10172a",
+       "share": 0.72
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#f4f3f0",
+       "share": 0.1
+      },
+      {
+       "color": "#424a5e",
+       "share": 0.03
+      },
+      {
+       "color": "#0f7a4a",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#1f4fff",
+      "hsl": {
+       "h": 227,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start free trial",
+      "Start free trial"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.25
+     },
+     {
+      "type": "img",
+      "ratio": 0.13
+     },
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 10474,
+    "margins": {
+     "left": 48,
+     "right": 48
+    },
+    "sections": [
+     {
+      "sel": "section.h-hero",
+      "tag": "section",
+      "top": 88,
+      "height": 812,
+      "words": 40,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 48,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-split",
+      "tag": "section",
+      "top": 900,
+      "height": 811,
+      "words": 83,
+      "media": 0,
+      "middle": 96,
+      "heading": null,
+      "left": 48,
+      "right": 146,
+      "textLeft": 48,
+      "textRight": 146,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 2309,
+      "height": 557,
+      "words": 31,
+      "media": 1,
+      "middle": 126,
+      "heading": {
+       "text": "Employees and their documents",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 366,
+      "textLeft": 620,
+      "textRight": 366,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 2987,
+      "height": 362,
+      "words": 25,
+      "media": 1,
+      "middle": 28,
+      "heading": {
+       "text": "Leave without the email chain",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 399,
+      "textLeft": 620,
+      "textRight": 399,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3469,
+      "height": 337,
+      "words": 24,
+      "media": 1,
+      "middle": 235,
+      "heading": {
+       "text": "Payroll with PF, ESI and PT",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 419,
+      "textLeft": 620,
+      "textRight": 419,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3926,
+      "height": 557,
+      "words": 28,
+      "media": 1,
+      "middle": 28,
+      "heading": {
+       "text": "Hiring to the first day",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 146,
+      "right": 450,
+      "textLeft": 620,
+      "textRight": 450,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 4603,
+      "height": 362,
+      "words": 26,
+      "media": 1,
+      "middle": 28,
+      "heading": {
+       "text": "Every company laptop",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 405,
+      "textLeft": 620,
+      "textRight": 405,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-stages",
+      "tag": "section",
+      "top": 5139,
+      "height": 689,
+      "words": 38,
+      "media": 0,
+      "middle": 134,
+      "heading": {
+       "text": "From sign-up to payroll",
+       "size": 71,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 271,
+      "textLeft": 48,
+      "textRight": 271,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-pay",
+      "tag": "section",
+      "top": 5827,
+      "height": 1139,
+      "words": 132,
+      "media": 0,
+      "middle": 116,
+      "heading": {
+       "text": "Indian payroll,",
+       "size": 71,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 146,
+      "textLeft": 48,
+      "textRight": 146,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.h-price",
+      "tag": "section",
+      "top": 6966,
+      "height": 810,
+      "words": 70,
+      "media": 0,
+      "middle": 122,
+      "heading": {
+       "text": "Monthly",
+       "size": 71,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 74,
+      "textLeft": 48,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-faq",
+      "tag": "section",
+      "top": 7776,
+      "height": 1163,
+      "words": 351,
+      "media": 0,
+      "middle": 158,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 49,
+      "textLeft": 48,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-close",
+      "tag": "section",
+      "top": 8939,
+      "height": 887,
+      "words": 48,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Bring your own team",
+       "size": 71,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 48,
+      "textRight": 726,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.h-foot",
+      "tag": "footer",
+      "top": 9826,
+      "height": 648,
+      "words": 26,
+      "media": 0,
+      "middle": 194,
+      "heading": {
+       "text": "customersupport",
+       "size": 134,
+       "tag": "span"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4968,
+      "height": 328
+     },
+     {
+      "top": 5636,
+      "height": 348
+     }
+    ],
+    "h1s": [
+     {
+      "text": "HR and laptops, in one app.",
+      "size": 102,
+      "top": 640,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 620,
+      "n": 11
+     },
+     {
+      "x": 48,
+      "n": 7
+     },
+     {
+      "x": 505,
+      "n": 6
+     },
+     {
+      "x": 977,
+      "n": 4
+     },
+     {
+      "x": 648,
+      "n": 3
+     },
+     {
+      "x": 277,
+      "n": 1
+     },
+     {
+      "x": 290,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 33,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 0,
+     "y": 540,
+     "w": 1440,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    1,
+    0.93,
+    1,
+    1,
+    0.94,
+    0.84,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 6,
+    "transitions": 32,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9416,
+     "screens": 9.2,
+     "words": 931,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fproduct%2Fdashboard.webp&w=384&q=75",
+      "image?url=%2Fproduct%2Fleave.webp&w=256&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=256&q=7",
+      "image?url=%2Fproduct%2Femployees.webp&w=256&q=75",
+      "image?url=%2Fproduct%2Fleave.webp&w=256&q=75",
+      "image?url=%2Fproduct%2Fpayslip.webp&w=256&q=75",
+      "image?url=%2Fproduct%2Fpipeline.webp&w=256&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=256&q=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HR and laptops, in one app.",
+     "words": 6,
+     "chars": 27,
+     "lines": 2,
+     "size": 62.1,
+     "vw": 8.1,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.93,
+     "top": 586,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HR and laptops, in one app.",
+     "words": 6,
+     "lines": 2,
+     "size": 62.1,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "HR and laptops, in one app.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 62.1,
+      "vw": 8.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 586,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Punches in,",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1868,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "attendance out.",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 1868,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One record for each person",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.68,
+      "top": 2042,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From sign-up to payroll",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 4342,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Indian payroll, line by line",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 4892,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Yearly",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 5977,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹179 per employee a month",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 62.1,
+      "vw": 8.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 6336,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Monthly",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 6516,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹199 per employee a month",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 62.1,
+      "vw": 8.1,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 6719,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Bring your own team",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 48.5,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 8553,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "customersupport @vettrihrms.in",
+      "words": 2,
+      "chars": 30,
+      "lines": 2,
+      "size": 79,
+      "vw": 10.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 9109,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Instrument Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      19,
+      25,
+      49,
+      62,
+      79
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.1
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 79,
+      "vw": 10.3,
+      "font": "Manrope",
+      "text": "customersupport"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f3f0",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 0.15,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#10172a",
+       "top": 88,
+       "hsl": {
+        "h": 224,
+        "s": 0.45,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1f4fff",
+       "top": 1024,
+       "hsl": {
+        "h": 227,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#e9e7e2",
+       "top": 1024,
+       "hsl": {
+        "h": 43,
+        "s": 0.14,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10172a",
+       "share": 0.72
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#f4f3f0",
+       "share": 0.1
+      },
+      {
+       "color": "#424a5e",
+       "share": 0.03
+      },
+      {
+       "color": "#0f7a4a",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#1f4fff",
+      "hsl": {
+       "h": 227,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start free trial",
+      "Start free trial"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 9,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.21
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     },
+     {
+      "type": "img",
+      "ratio": 0.11
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9416,
+    "margins": {
+     "left": 26,
+     "right": 26
+    },
+    "sections": [
+     {
+      "sel": "section.h-hero",
+      "tag": "section",
+      "top": 88,
+      "height": 936,
+      "words": 40,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "HR and laptops,",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 26,
+      "textRight": 309,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-split",
+      "tag": "section",
+      "top": 1024,
+      "height": 922,
+      "words": 83,
+      "media": 0,
+      "middle": 52,
+      "heading": null,
+      "left": 26,
+      "right": 40,
+      "textLeft": 26,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "h2#h-rows-title.h-head.h-axis",
+      "tag": "h2",
+      "top": 2042,
+      "height": 348,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "One record for each person",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 307,
+      "textLeft": 26,
+      "textRight": 307,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 2462,
+      "height": 359,
+      "words": 31,
+      "media": 1,
+      "middle": 79,
+      "heading": {
+       "text": "Employees and their documents",
+       "size": 25,
+       "tag": "h3"
+      },
+      "left": 26,
+      "right": 29,
+      "textLeft": 392,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 2892,
+      "height": 233,
+      "words": 25,
+      "media": 1,
+      "middle": 16,
+      "heading": {
+       "text": "Leave without the email chain",
+       "size": 25,
+       "tag": "h3"
+      },
+      "left": 26,
+      "right": 30,
+      "textLeft": 392,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3198,
+      "height": 217,
+      "words": 24,
+      "media": 1,
+      "middle": 149,
+      "heading": {
+       "text": "Payroll with PF, ESI and PT",
+       "size": 25,
+       "tag": "h3"
+      },
+      "left": 26,
+      "right": 34,
+      "textLeft": 392,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3487,
+      "height": 359,
+      "words": 28,
+      "media": 1,
+      "middle": 16,
+      "heading": {
+       "text": "Hiring to the first day",
+       "size": 25,
+       "tag": "h3"
+      },
+      "left": 89,
+      "right": 26,
+      "textLeft": 392,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3917,
+      "height": 233,
+      "words": 26,
+      "media": 1,
+      "middle": 16,
+      "heading": {
+       "text": "Every company laptop",
+       "size": 25,
+       "tag": "h3"
+      },
+      "left": 26,
+      "right": 44,
+      "textLeft": 392,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-stages",
+      "tag": "section",
+      "top": 4246,
+      "height": 550,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From sign-up to payroll",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 87,
+      "textLeft": 26,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-pay",
+      "tag": "section",
+      "top": 4796,
+      "height": 1141,
+      "words": 132,
+      "media": 0,
+      "middle": 37,
+      "heading": {
+       "text": "Indian payroll,",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 55,
+      "textLeft": 26,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.h-price",
+      "tag": "section",
+      "top": 5937,
+      "height": 922,
+      "words": 70,
+      "media": 0,
+      "middle": 65,
+      "heading": {
+       "text": "₹179",
+       "size": 62,
+       "tag": "p"
+      },
+      "left": 26,
+      "right": 52,
+      "textLeft": 26,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-faq",
+      "tag": "section",
+      "top": 6859,
+      "height": 1188,
+      "words": 351,
+      "media": 0,
+      "middle": 56,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 28,
+      "textLeft": 26,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-close",
+      "tag": "section",
+      "top": 8047,
+      "height": 860,
+      "words": 48,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Bring your own team",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 26,
+      "textRight": 149,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.h-foot",
+      "tag": "footer",
+      "top": 8907,
+      "height": 509,
+      "words": 26,
+      "media": 0,
+      "middle": 4,
+      "heading": {
+       "text": "customersupport",
+       "size": 79,
+       "tag": "span"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "HR and laptops, in one app.",
+      "size": 62,
+      "top": 586,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 26,
+      "n": 17
+     },
+     {
+      "x": 392,
+      "n": 10
+     },
+     {
+      "x": 412,
+      "n": 4
+     },
+     {
+      "x": 42,
+      "n": 1
+     },
+     {
+      "x": 148,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 33,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    0.97,
+    0.83,
+    1,
+    1,
+    1,
+    1,
+    0.93,
+    0.86,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 34,
+    "css": 6,
+    "transitions": 28,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11843,
+     "screens": 14,
+     "words": 914,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fproduct%2Fdashboard.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fleave.webp&w=256&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=256&q=7",
+      "image?url=%2Fproduct%2Femployees.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fleave.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fpayslip.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fpipeline.webp&w=640&q=75",
+      "image?url=%2Fproduct%2Fit-devices.webp&w=640&q=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HR and laptops, in one app.",
+     "words": 6,
+     "chars": 27,
+     "lines": 2,
+     "size": 46.8,
+     "vw": 12,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 418,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HR and laptops, in one app.",
+     "words": 6,
+     "lines": 2,
+     "size": 46.8,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "HR and laptops, in one app.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 418,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Punches in,",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1334,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "attendance out.",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 1494,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One record for each person",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 37.1,
+      "vw": 9.5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2182,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Employees and their documents",
+      "words": 4,
+      "chars": 29,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2524,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Leave without the email chain",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3074,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Payroll with PF, ESI and PT",
+      "words": 6,
+      "chars": 27,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3542,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hiring to the first day",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3947,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Every company laptop",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4497,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "From sign-up to payroll",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5085,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Two minutes First, sign up with a ₹1 card check.",
+      "words": 10,
+      "chars": 48,
+      "lines": 3,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5233,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "An afternoon Then import your employees from Excel.",
+      "words": 8,
+      "chars": 51,
+      "lines": 3,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5372,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "About a day Next, connect biometric machines and laptops.",
+      "words": 9,
+      "chars": 57,
+      "lines": 3,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5518,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Month end Finally, run your first payroll.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5692,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Indian payroll, line by line",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 41,
+      "vw": 10.5,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6084,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Yearly",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7607,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹179 per employee a month",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 85.8,
+      "vw": 22,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 7980,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Monthly",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8254,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "₹199 per employee a month",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 85.8,
+      "vw": 22,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 8452,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8775,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bring your own team",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11068,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Try Vettri with your real team. Start your free trial, or book a demo and we will set it up with you.",
+      "words": 22,
+      "chars": 101,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11136,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "customersupport @vettrihrms.in",
+      "words": 2,
+      "chars": 30,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11585,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 23,
+     "maxLines": 4,
+     "over2Lines": 0,
+     "statements": 8,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 1,
+       "mono": false
+      },
+      {
+       "family": "Instrument Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      22,
+      36,
+      37,
+      39,
+      41,
+      43,
+      47,
+      86
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.1
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 85.8,
+      "vw": 22,
+      "font": "Manrope",
+      "text": "₹199"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f3f0",
+       "top": 0,
+       "hsl": {
+        "h": 45,
+        "s": 0.15,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#10172a",
+       "top": 80,
+       "hsl": {
+        "h": 224,
+        "s": 0.45,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1f4fff",
+       "top": 803,
+       "hsl": {
+        "h": 227,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#173fd6",
+       "top": 954,
+       "hsl": {
+        "h": 227,
+        "s": 0.81,
+        "l": 0.46
+       }
+      },
+      {
+       "color": "#e9e7e2",
+       "top": 1470,
+       "hsl": {
+        "h": 43,
+        "s": 0.14,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1566,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10172a",
+       "share": 0.73
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#f4f3f0",
+       "share": 0.1
+      },
+      {
+       "color": "#424a5e",
+       "share": 0.02
+      },
+      {
+       "color": "#0f7a4a",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#0f1b3d",
+      "hsl": {
+       "h": 224,
+       "s": 0.61,
+       "l": 0.15
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start free trial"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5233
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6236
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 11843,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.h-hero",
+      "tag": "section",
+      "top": 80,
+      "height": 723,
+      "words": 40,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "HR and laptops,",
+       "size": 47,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-split",
+      "tag": "section",
+      "top": 803,
+      "height": 1283,
+      "words": 74,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Punches in,",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "h2#h-rows-title.h-head.h-axis",
+      "tag": "h2",
+      "top": 2182,
+      "height": 270,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "One record for each person",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 38,
+      "textLeft": 20,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 2524,
+      "height": 478,
+      "words": 27,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3074,
+      "height": 396,
+      "words": 20,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3542,
+      "height": 333,
+      "words": 18,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 3947,
+      "height": 478,
+      "words": 23,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 38,
+      "textLeft": 20,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.h-row",
+      "tag": "article",
+      "top": 4497,
+      "height": 396,
+      "words": 23,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-stages",
+      "tag": "section",
+      "top": 4989,
+      "height": 999,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From sign-up to payroll",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 62,
+      "textLeft": 20,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-pay",
+      "tag": "section",
+      "top": 5988,
+      "height": 1571,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Indian payroll,",
+       "size": 41,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 37,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#pricing.h-price",
+      "tag": "section",
+      "top": 7559,
+      "height": 1120,
+      "words": 70,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "₹179",
+       "size": 86,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 41,
+      "textLeft": 20,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-faq",
+      "tag": "section",
+      "top": 8679,
+      "height": 1871,
+      "words": 323,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.h-close",
+      "tag": "section",
+      "top": 10549,
+      "height": 837,
+      "words": 0,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.h-foot",
+      "tag": "footer",
+      "top": 11386,
+      "height": 457,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "customersupport",
+       "size": 39,
+       "tag": "span"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1980,
+      "height": 292
+     },
+     {
+      "top": 5780,
+      "height": 292
+     },
+     {
+      "top": 10992,
+      "height": 432
+     }
+    ],
+    "h1s": [
+     {
+      "text": "HR and laptops, in one app.",
+      "size": 47,
+      "top": 418,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 30
+     }
+    ],
+    "leftBlocks": 30,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt General Sans and General Sans, but the page renders Manrope, Instrument Sans.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 390,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 390,
+   "message": "12 different font sizes (14, 16, 17, 18, 22, 36, 37, 39, 41, 43, 47, 86).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "A 432px stretch at 10992px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\desktop-page-01.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\desktop-page-02.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\tablet-page-01.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\mobile-page-01.jpg",
+    "C:\\Users\\Vikkash\\Vettri_HRMS\\vettri-marketing\\.taste-skill\\after\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
